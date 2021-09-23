@@ -1,0 +1,5 @@
+public/build
+.routify
+node_modules
+.history
+dist
