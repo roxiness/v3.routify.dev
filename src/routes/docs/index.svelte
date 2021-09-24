@@ -13,7 +13,7 @@
     setTimeout(() => (ready = true), 0)
 
     $: if (ready && !$isScrolling)
-        history.replaceStateNative({}, null, `/docs/#${$activeHash}`)
+        history.replaceStateNative({}, null, `/docs#${$activeHash}`)
 </script>
 
 <LiveAnchor
