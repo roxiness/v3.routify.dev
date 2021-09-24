@@ -1,6 +1,6 @@
 <script>
     import { Details } from 'polykit'
-    import { resolveNode } from '@roxi/routify'
+    import { resolveNode, node } from '@roxi/routify'
     import FilesViewer from '#cmp/FilesViewer.svelte'
     import Browser from '#cmp/minibrowser/MiniBrowser.svelte'
     export let path
@@ -18,7 +18,7 @@
             <FilesViewer root={resolveNode(path)} {focus} />
         </div>
         <div class="ex">
-            <Browser offset={path} slot="browser" />
+            <Browser rootNode={$node.traverse(path)} slot="browser" />
         </div>
     </div>
 </Details>

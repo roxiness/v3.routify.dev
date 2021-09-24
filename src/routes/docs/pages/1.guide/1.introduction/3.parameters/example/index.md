@@ -1,3 +1,3 @@
 # Home
 
-Welcome to the structure example
+Parameters example

@@ -1,7 +1,7 @@
 <script>
     import Bar from '#cmp/minibrowser/Bar.svelte'
     import { Router, InternalReflector } from '@roxi/routify'
-    export let offset
+    export let rootNode
     export let url = '/'
     export let urlReflector = InternalReflector
     export let name = 'example'
@@ -10,7 +10,7 @@
 
 <div class="example">
     <Bar {router}>
-        <Router {name} {offset} {url} {urlReflector} bind:router />
+        <Router {name} {rootNode} {url} {urlReflector} bind:router />
     </Bar>
 </div>
 
