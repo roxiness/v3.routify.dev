@@ -1,9 +1,10 @@
 <script>
     import Icon from '#cmp/Icon.svelte'
+    import {isActive} from '@roxi/routify'
 </script>
 
-<a href="/docs">Docs</a>
-<a href="/blog">Blog</a>
+<a href="/docs" class:active={$isActive('/docs')}>Docs</a>
+<a href="/blog" class:active={$isActive('/blog')}>Blog</a>
 <div class="spacer" />
 <a href="https://github.com/roxiness/routify" class="icon">
     <Icon name="IconGithub" />
@@ -14,3 +15,8 @@
 <a href="https://twitter.com/routifyjs" class="icon">
     <Icon name="IconTwitter" />
 </a>
+
+
+<style>
+    .active { font-weight: bold}
+</style>>
