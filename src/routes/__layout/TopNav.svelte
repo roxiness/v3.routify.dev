@@ -12,12 +12,12 @@
         <div class="middle">
             <Links />
         </div>
-        <div
+        <!-- <div
             class="right"
             style="text-align: right; font-weight: bold; color: var(--color-grey-500)">
             <Icon name="IconSearch" />
             Search...
-        </div>
+        </div> -->
     </div>
 </nav>
 <div class="filler" />
