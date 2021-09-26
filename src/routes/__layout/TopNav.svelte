@@ -31,7 +31,7 @@
     nav {
         position: fixed;
         z-index: 1;
-        width: 100%;
+        width: 100vw;
         height: var(--spacing-8);
         align-items: center;
         display: flex;
