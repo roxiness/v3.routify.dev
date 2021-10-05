@@ -20,7 +20,7 @@
                         <Links />
                         <hr />
                     </div>
-                    <Navbar node={context.node.children.pages} {rewrite} />
+                    <Navbar node={context.node.traverse('pages')} {rewrite} />
                 </div>
             </aside>
             {#if ['mobile', 'tablet'].includes($screenSize)}

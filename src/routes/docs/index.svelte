@@ -23,7 +23,7 @@
     anchorOffset="-{96 + 72}px">
     <div class="copy">
         {#if true}
-            {#each $context.node.parent.children.pages.children.indexed.filter(noInternal) as category}
+            {#each $context.node.traverse('../pages').pages.filter(noInternal) as category}
                 <div class="section">
                     <h1 class="section-hero">
                         <a href="#{category.name}">
@@ -33,11 +33,11 @@
                     </h1>
 
                     {#if category.children.index}
-                        <svelte:component this={category.children.index.component} />
+                        <svelte:component this={category.traverse('./index').component} />
                     {/if}
 
                     <div class="categories">
-                        {#each category.children.indexed as topic}
+                        {#each category.pages as topic}
                             <div class="category">
                                 <h2 class="category-header">
                                     <Anchor id="{category.name}/{topic.name}" />

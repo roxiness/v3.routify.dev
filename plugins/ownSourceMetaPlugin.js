@@ -1,7 +1,10 @@
+/// <reference types="@roxi/routify" />
+
 import { readFileSync } from 'fs'
 
 /**
  * Plugin that saves a files content in its own meta.src
+ * @returns {RoutifyBuildtimePlugin}
  */
 export default () => ({
     name: 'sourceMeta',

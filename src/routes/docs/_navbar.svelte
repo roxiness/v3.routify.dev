@@ -14,11 +14,11 @@
 </script>
 
 <ul class="nested-{nested}">
-    {#each node.children.indexed.filter(noExample).filter(noInternal) as child}
+    {#each node.pages.filter(noExample).filter(noInternal) as child}
         <li class:active={isActive(rewrite(child.path))}>
             <a href={rewrite(child.path)} style="padding-left: {nested * 12 + 0}px"
                 >{getName(child)}</a>
-            {#if !nested || (child.children.indexed.filter(noExample).length && isActive(rewrite(child.path)))}
+            {#if !nested || (child.pages.filter(noExample).length && isActive(rewrite(child.path)))}
                 <div class="children" transition:slide|local>
                     <svelte:self node={child} nested={nested + 1} {rewrite} />
                 </div>
