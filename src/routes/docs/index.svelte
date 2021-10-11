@@ -32,7 +32,7 @@
                         </a>
                     </h1>
 
-                    {#if category.children.index}
+                    {#if category.traverse('./index')}
                         <svelte:component this={category.traverse('./index').component} />
                     {/if}
 
