@@ -1,5 +1,5 @@
 <script>
-    import Navbar from './_navbar.svelte'
+    import Nav from './_sidenav.svelte'
     import { Sidenav, Backdrop, screenSize } from 'polykit'
     import Links from '../__layout/Links.svelte'
     export let context
@@ -20,7 +20,7 @@
                         <Links />
                         <hr />
                     </div>
-                    <Navbar node={context.node.traverse('pages')} {rewrite} />
+                    <Nav node={context.node.traverse('pages')} {rewrite} />
                 </div>
             </aside>
             {#if ['mobile', 'tablet'].includes($screenSize)}
