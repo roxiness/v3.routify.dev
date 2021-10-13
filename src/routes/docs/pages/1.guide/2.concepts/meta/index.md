@@ -1,3 +1,7 @@
+<script>
+    import Example from '#cmp/Example.svelte'
+</script>
+
 
 <!-- routify:meta order=20 -->
 
@@ -28,3 +32,18 @@ Metadata can be written as HTML comments.
 <!-- routify::meta property=[value] -->
 ```
 The value is parsed as a JSON value. If the value is omitted it will set to true. Hence `property=true` can be written simply as `property`.
+
+
+### Using meta to run scripts and fetch data at runtime
+
+To create dynamic buildtime metadata, we can create a meta js file with the same name as its component. For `movies.svelte`, we would name the metafile `movies.meta.js`
+
+
+<Example path="../example.plain" focus="index.svelte" title="Structure example" />
+
+
+#### Dynamic import of metadata
+To avoid including too much data in our initial bundle, we can use dynamic imports to make sure that the data is loaded only when we want it.
+
+<Example show=true path="../example.dynamic-import" focus="index.svelte" title="Dynamic import of metadata example" />
+    
