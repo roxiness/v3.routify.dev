@@ -45,5 +45,5 @@ To create dynamic buildtime metadata, we can create a meta js file with the same
 #### Dynamic import of metadata
 To avoid including too much data in our initial bundle, we can use dynamic imports to make sure that the data is loaded only when we want it.
 
-<Example show=true path="../example.dynamic-import" focus="index.svelte" title="Dynamic import of metadata example" />
+<Example path="../example.dynamic-import" focus="index.svelte" title="Dynamic import of metadata example" />
     
