@@ -8,7 +8,7 @@
 
 <Window let:size>
     <div class="app {size}">
-        {#if $activeRoute.url !== '/'}
+        {#if $activeRoute.url !== '/' && size !== 'mobile'}
             <TopNav />
         {/if}
         <slot />

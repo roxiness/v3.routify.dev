@@ -72,9 +72,14 @@
 </LiveAnchor>
 
 <style>
-  .copy {
-    margin: 0 var(--spacing-8);
+  :global(.tablet .copy) {
+    margin: 0 var(--spacing-7);
   }
+  
+  :global(.desktop) .copy {
+    margin: 0 var(--spacing-9);
+  }
+
   .block {
     min-height: 256px;
     border-radius: var(--spacing-5);
@@ -86,8 +91,7 @@
     margin-top: 0;
   }
   .section-hero {
-    margin: 0 calc(var(--spacing-8) * -1);
-    padding-left: 96px;
+    margin: 0 ;
     text-transform: uppercase;
     font-weight: bold;
     border-bottom: 8px solid #606c76;

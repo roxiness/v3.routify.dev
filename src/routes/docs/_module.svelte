@@ -15,7 +15,8 @@
         <Sidenav bind:open bind:state let:toggle asidePositioning="absolute">
             <aside slot="aside">
                 <div class="sidenav-activator" on:click={toggle}>☰</div>
-                <div class="container">
+                <div class="container nav">
+                    <img class="brand" src="/assets/routify3.svg" />
                     <div class="links">
                         <Links />
                         <hr />
@@ -27,7 +28,7 @@
                 <Backdrop bind:show={open} />
             {/if}
 
-            <div class="container">
+            <div class="container main">
                 <main>
                     <slot />
                 </main>
@@ -37,6 +38,21 @@
 </div>
 
 <style>
+    .container.main {
+        padding: 0;
+    }
+    .brand {
+        display: none;
+    }
+    .mobile .brand { 
+        display: block;
+        width: 160px;
+        margin-top: -56px;
+        margin-bottom: 32px;
+        /* position: absolute; */
+        top: 16px;
+    }
+
     /**
     * Global
     */
@@ -52,14 +68,27 @@
         padding: 0;
     }
 
+    .container.nav {
+        overflow-y: auto;
+        padding-top: 72px;
+        height: 100%;
+    }
+
+    .mobile .container.nav,
+    .tablet .container.nav {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
     main {
         min-height: 400px;
         padding-top: 72px;
     }
     aside {
-        padding-top: 72px;
         position: fixed;
         width: inherit;
+        background: #fdf6fe;
+        height: 100vh;
     }
 
     aside,
@@ -77,6 +106,7 @@
         background: white;
         border-radius: 4px;
         cursor: pointer;
+        border: 2px #FFA8FA solid;
     }
 
     :global(.closed) .sidenav-activator {
@@ -99,8 +129,6 @@
         height: 100%;
         z-index: 1;
         background: white;
-        padding-left: 24px;
-        padding-right: 24px;
     }
 
     .mobile.open aside {

@@ -45,6 +45,7 @@
     }
 
     .brand {
+        padding-left: 24px;
         height: 56px;
     }
     .spacer {
@@ -53,10 +54,11 @@
     .container {
         grid-template-columns: var(--left-nav) auto auto;
         display: grid;
+        padding: 0;
     }
     .middle {
         display: flex;
-        padding-left: var(--spacing-8);
+        padding-left: var(--spacing-9);
         align-items: center;
     }
     .middle :global(a) {
