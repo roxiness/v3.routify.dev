@@ -9,7 +9,9 @@ const production = process.env.NODE_ENV === 'production'
 export default defineConfig({
     clearScreen: false,
     plugins: [
-        routify(),
+        routify({
+            extensions: ['.svelte', '.html', '.md', '.svx', '.meta.js'],
+        }),
         svelte({
             emitCss: true,
             compilerOptions: {
