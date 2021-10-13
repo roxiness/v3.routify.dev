@@ -805,5 +805,5 @@ html, body {
   line-height: 3.2rem;
   margin-bottom: 1.6rem;
  }
-.copy h5 { font-size: calc(var(--font-size-h5) * 1rem) }
-.copy h6 { font-size: calc(var(--font-size-h6) * 1rem) }
+.copy h5 { font-size: calc(var(--font-size-h5) * 1rem); margin-top: 1.6rem; font-weight: bold;}
+.copy h6 { font-size: calc(var(--font-size-h6) * 1rem); margin-top: 1.6rem; font-weight: bold;}
