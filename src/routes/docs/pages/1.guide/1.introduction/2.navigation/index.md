@@ -24,7 +24,7 @@ $url('/blog/[slug]/comments', {slug: 'welcome', sort: 'descending'})
 ```
 For more information, please see [$url](/docs/api/helpers/url)
 
-#### Generating URLs from files
+#### Generating URLs from file structure
 Routify lets you iterate over nodes (files) in your project.
 ```html
 <script>

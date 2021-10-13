@@ -16,7 +16,7 @@ Often we want our URLs to look a little more appealing. For instance, `/posts/1`
 
 To accomplish this we can add a dynamic page or module, `/posts/[page].svelte`.
 
-Routify knows which pages are dynamic and will automatically output the correct URL when using $url. For this case `$url('/posts/', {page: 1, theme: 'dark'})` would output `/posts/1?theme=dark`.
+Routify knows which pages are dynamic and will automatically output the correct URL when using $url. Eg. `$url('/posts/', {page: 1, theme: 'dark'})` would output `/posts/1?theme=dark`.
 
 
 <Example path="../example" title="Parameters example" />
