@@ -25,6 +25,13 @@
         svelte: 'svelte',
         md: 'svelte',
     }
+
+    const parseSrc = src =>
+        src
+            .split('\n')
+            .map(line => line.replace('<<WEDGE>>', ''))
+            .map(line => (line.replace(/.+\/\/ ROUTIFY-REPLACE /gm, '')))
+            .join('\n')
 </script>
 
 <Tabs>
@@ -47,7 +54,7 @@
                         {#await file.node.meta.src() then src}
                             <Code
                                 language={langMap[file.node.file.base.split('.').pop()]}>
-                                {src}
+                                {parseSrc(src)}
                             </Code>
                         {/await}
                     </div>
