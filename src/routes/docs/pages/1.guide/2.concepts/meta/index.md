@@ -51,4 +51,4 @@ To avoid including too much data in our initial bundle, we can use dynamic impor
 #### Persistent data
 To reduce expensive API calls and lower build time greatly, we can store select data on disk. For sites with 10.000s of API requests this can reduce the build time from hours to milliseconds.
 
-<Example path="../example.persistent" focus="index.svelte" title="Dynamic import of metadata example" />
+<Example path="../example.persistent" focus="index.svelte" title="Persistent metadata example" />
