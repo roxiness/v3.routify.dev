@@ -10,7 +10,6 @@
     /** @type {import('@roxi/routify').RouterClass}*/
     export let router
     let show = false
-    
     $: reflectors = Object.entries({
         AddressReflector,
         InternalReflector,
@@ -18,7 +17,7 @@
     }).map(([name, Reflector]) => ({
         name,
         Reflector,
-        isActive: name === $router.urlReflector.constructor.name
+        isActive: $router.urlReflector instanceof Reflector 
     }))
 
     const toggleMenu = () => {
@@ -35,7 +34,7 @@
         <ul class="menu" transition:slide|local={{ duration: 65 }}>
             {#each reflectors as { name, isActive, Reflector }}
                 <li class:isActive on:click={() => selectReflector(Reflector)}>
-                    {name}
+                    {name.replace('Reflector', '')}
                 </li>
             {/each}
         </ul>
