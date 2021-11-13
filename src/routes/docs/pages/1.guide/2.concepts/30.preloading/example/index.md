@@ -9,8 +9,8 @@
 </script>
 
 <script>
-    export let hello
+    export let context
 </script>
 
 
-hello {hello}
+hello {context.load.hello}
