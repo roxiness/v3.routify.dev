@@ -7,28 +7,25 @@
         LocalStorageReflector,
     } from '@roxi/routify'
 
-    const reflectors = {
+    /** @type {import('@roxi/routify').RouterClass}*/
+    export let router
+    let show = false
+    
+    $: reflectors = Object.entries({
         AddressReflector,
         InternalReflector,
         LocalStorageReflector,
-    }
-
-    export let router
-    let show = false
-
-    const urlHooks = derived(router.urlReflector, urlReflector => {
-        return Object.entries(reflectors).map(([name, reflector]) => ({
-            name,
-            isActive: urlReflector.constructor.name === name,
-            reflector,
-        }))
-    })
+    }).map(([name, Reflector]) => ({
+        name,
+        Reflector,
+        isActive: name === $router.urlReflector.constructor.name
+    }))
 
     const toggleMenu = () => {
         console.log('toggle')
         show = !show
     }
-    const selectReflector = reflector => (router.urlReflector = reflector)
+    const selectReflector = reflector => (router.setUrlReflector(reflector))
 </script>
 
 <div class="options">
@@ -36,8 +33,8 @@
     {#if show}
         <div class="backdrop" on:click={toggleMenu} />
         <ul class="menu" transition:slide|local={{ duration: 65 }}>
-            {#each $urlHooks as { name, isActive, reflector }}
-                <li class:isActive on:click={() => selectReflector(reflector)}>
+            {#each reflectors as { name, isActive, Reflector }}
+                <li class:isActive on:click={() => selectReflector(Reflector)}>
                     {name}
                 </li>
             {/each}

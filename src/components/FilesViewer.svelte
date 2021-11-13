@@ -30,7 +30,7 @@
         src
             .split('\n')
             .map(line => line.replace('<<WEDGE>>', ''))
-            .map(line => (line.replace(/.+\/\/ ROUTIFY-REPLACE /gm, '')))
+            .map(line => line.replace(/.+\/\/ ROUTIFY-REPLACE /gm, ''))
             .join('\n')
 </script>
 
@@ -39,7 +39,7 @@
         <div class="filetree">
             <div class="files-header">FILES</div>
             {#each files as file}
-                <TabsLink selected={file.selected}>
+                <TabsLink selected={file.selected} selectable={file.node.meta.src}>
                     <span style="padding-left: {file.level * 16}px">
                         {file.node.file.base}
                     </span>
@@ -71,6 +71,7 @@
     }
     .file {
         width: 100%;
+        overflow-y: auto;
     }
     .files-header {
         background: rgb(160, 110, 170);
