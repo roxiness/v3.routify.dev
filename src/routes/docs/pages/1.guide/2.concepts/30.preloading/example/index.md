@@ -3,14 +3,16 @@
         //simulate slow api
         await new Promise(resolve => setTimeout(resolve, 1500))
         return {
-            hello: await 'preloaded world',
+            props: {
+                msg: await 'preloaded world',
+            }
         }
     }
 </script>
 
 <script>
-    export let context
+    export let msg
 </script>
 
 
-hello {context.load.hello}
+hello {msg}
