@@ -34,7 +34,7 @@ Metadata can be written as HTML comments.
 The value is parsed as a JSON value. If the value is omitted it will set to true. Hence `property=true` can be written simply as `property`.
 
 
-### Using meta to run scripts and fetch data at runtime
+### Using meta to run scripts and fetch data at buildtime
 
 To create dynamic buildtime metadata, we can create a meta js file with the same name as its component. For `movies.svelte`, we would name the metafile `movies.meta.js`
 
