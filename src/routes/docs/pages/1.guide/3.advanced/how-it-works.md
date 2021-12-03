@@ -24,7 +24,7 @@ const fragments = urlParts.map((part) => new Fragment(part))
 ```
 
 #### 3. Render the URL
-To render the corresponding page, Routify travels through the fragments till there are non left.
+To render the corresponding page, Routify travels through the fragments till there are none left.
 ```html
 <script>
   export let fragments
