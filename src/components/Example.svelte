@@ -34,7 +34,7 @@
     }
     .example {
         position: relative;
-        margin-bottom: 96px;
+        margin-bottom: 64px;
     }
     .left-bar {
         position: absolute;
