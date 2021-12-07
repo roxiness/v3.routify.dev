@@ -1,5 +1,5 @@
 
-#### formerly known as layouts
+#### Formerly known as layouts
 
 Modules are components that can control logic, layout and access for descendent components.
 
@@ -13,4 +13,17 @@ Modules are created as `_module.svelte`.
    will be rendered here -->
 </slot>
 <p>Copyright my website </p>
+```
+
+#### Disabling parent modules
+Sometimes we may need to disable one or more parent modules. To do this we can use the `reset` meta helper.
+
+##### Remove all parent modules
+```
+<!-- routify:meta reset -->
+```
+
+##### Remove the two nearest parent modules
+```
+<!-- routify:meta reset=2 -->
 ```
