@@ -1,7 +1,6 @@
 <script context="module">
     export const load = async () => {
-        //simulate slow api
-        await new Promise(resolve => setTimeout(resolve, 1500))
+        //fetch props before the component gets loaded        
         return {
             props: {
                 msg: await 'preloaded world',
