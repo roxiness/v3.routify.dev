@@ -8,12 +8,15 @@
     const files = []
     if (root.module) files.push({ node: root, level: 0 })
 
+    const regexPath = new RegExp('^' + root.file.path + '/')
+
     const addFiles = (node, level = 0) => {
         node.children.forEach(node => {
+            const relativeFromRoot = node.file.path.replace(regexPath, '')
             files.push({
                 level,
                 node,
-                selected: node.file.base === focus,
+                selected: relativeFromRoot === focus,
             })
             addFiles(node, level + 1)
         })
@@ -39,8 +42,18 @@
         <div class="filetree">
             <div class="files-header">FILES</div>
             {#each files as file}
+                <!-- only consider this the folder if it's a _module and not the actual root folder for the example -->
+                {@const isFolder =
+                    file.node.file.name === '_module' && file.node !== root ? 1 : 0}
+                {#if isFolder}
+                    <button>
+                        <div style="padding-left: {file.level * 16}px">
+                            {file.node.file.dir.split('/').pop()}/
+                        </div>
+                    </button>
+                {/if}
                 <TabsLink selected={file.selected} selectable={file.node.meta.src}>
-                    <span style="padding-left: {file.level * 16}px">
+                    <span style="padding-left: {(file.level + isFolder) * 16}px">
                         {file.node.file.base}
                     </span>
                 </TabsLink>
@@ -49,7 +62,6 @@
         <div class="file">
             {#each files as file}
                 <TabsPage>
-                    <!-- <div class="files-header">{file.node.file.base}</div> -->
                     <div>
                         {#await file.node.meta.src() then src}
                             <Code
