@@ -10,6 +10,10 @@ export default defineConfig({
     clearScreen: false,
     plugins: [
         routify({
+            routesDir: {
+                default: 'src/routes',
+                exampleWidget: 'src/routes/docs/pages/1.guide/3.advanced/multiple-routers/example.shared-tree/widget'
+            },
             extensions: ['.svelte', '.html', '.md', '.svx', '.meta.js'],
         }),
         svelte({
