@@ -13,7 +13,7 @@ While the default route tree lives in `src/routes`, we can add as many route tre
 <Example path="../example.multiple-trees" focus="index.svelte" title="Nested nodes with different node trees" />
 
 #### Shared Tree
-We can also use the existing route tree, by setting `rootNode` to any node on the current node tree.
+We can also use the existing route tree, by setting `rootNode` to any node from the current node tree.
 
 <Example path="../example.shared-tree" focus="index.svelte" title="Create a new node example" />
 
