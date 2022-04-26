@@ -19,8 +19,17 @@ Guard that runs before url changes
 #### afterUrlChange
 Runs after url has changed
 
+
 #### transformFragments
 Transform route fragments after navigation
 
 #### onDestroyRouter
 Runs before router is destroyed
+
+---
+
+### Examples
+
+#### Simple loader / spinner example
+Loader that uses beforeUrlChange and afterUrlChange
+<Example path="../example.loader" title="Hooks"/>

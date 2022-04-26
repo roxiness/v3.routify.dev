@@ -10,11 +10,16 @@
 
 <div class="example">
     <Bar {router}>
-        <Router {name} {rootNode} {url} {urlReflector} bind:router />
+        <div class="router">
+            <Router {name} {rootNode} {url} {urlReflector} bind:router />
+        </div>
     </Bar>
 </div>
 
 <style>
+    .router {
+        position: relative;
+    }
     .example {
         box-shadow: var(--elevation-1);
         padding: 48px 64px 32px 64px;
