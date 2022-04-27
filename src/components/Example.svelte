@@ -15,6 +15,7 @@
             <span class="close" slot="deactivator">✖</span>
             <div class="">
                 <h4>{title}</h4>
+                <p><slot/></p>
                 <div class="left-bar" />
                 <div class="fv">
                     <FilesViewer root={resolveNode(path)} {focus} />
