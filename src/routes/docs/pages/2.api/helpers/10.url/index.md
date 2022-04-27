@@ -14,7 +14,7 @@
 
 
 <FunctionAPI name="$url" {params}>
-    The <code>$url</code> helper creates URLs from internal paths and parameters.    
+    Creates URLs from internal paths and parameters.    
 </FunctionAPI>
 
 

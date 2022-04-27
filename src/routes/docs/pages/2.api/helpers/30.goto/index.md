@@ -8,6 +8,6 @@
 </script>
 
 <FunctionAPI name="$goto" {params}>
-    The <code>$goto</code> helper offers programmatic navigation.
+    Programmatic navigation.
 </FunctionAPI>
 

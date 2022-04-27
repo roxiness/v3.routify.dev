@@ -14,6 +14,6 @@
 </script>
 
 <FunctionAPI name="$isActive" {params}>
-    The <code>$isActive</code> helper returns <code>true</code> for active paths.
+    Returns <code>true</code> for active paths.
 </FunctionAPI>
 
