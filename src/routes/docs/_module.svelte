@@ -21,7 +21,7 @@
                         <Links />
                         <hr />
                     </div>
-                    <Nav node={context.node.traverse('pages')} {rewrite} />
+                    <Nav node={context.node.traverse('./pages')} {rewrite} />
                 </div>
             </aside>
             {#if ['mobile', 'tablet'].includes($screenSize)}
