@@ -13,7 +13,7 @@
         "serve": "vite preview"
     },
     "devDependencies": {
-        "@roxi/routify": "^3.0.0-next.82",
+        "@roxi/routify": "^3.0.0-next.90",
         "@sveltejs/vite-plugin-svelte": "^1.0.0-next.26",
         "axios": "^0.21.1",
         "mdsvex": "^0.9.3",
@@ -21,7 +21,7 @@
         "polykit": "^0.0.1-8",
         "svelte": "^3.39.0",
         "svelte-prism": "^1.1.4",
-        "vite": "^2.6.14"
+        "vite": "^2.9.6"
     },
     "routify": {
         "plugins": [
