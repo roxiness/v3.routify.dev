@@ -6,22 +6,28 @@
     export let root
 
     const files = []
-    if (root.module) files.push({ node: root, level: 0 })
+    if (root.module || root.asyncModule) files.push({ node: root, level: 0 })
 
     const regexPath = new RegExp('^' + root.file.path + '/')
 
     const addFiles = (node, level = 0) => {
         node.children.forEach(node => {
             const relativeFromRoot = node.file.path.replace(regexPath, '')
+            if (node.file.name === '_module')
+                files.push({ level, name: node.file.dir, isDir: true })
             files.push({
                 level,
                 node,
+                isDir: !node.meta.src,
                 selected: relativeFromRoot === focus,
             })
             addFiles(node, level + 1)
         })
     }
     addFiles(root)
+
+    // if first file is a root folder, get rid of it.
+    if (!files[0].node.meta.src) files.shift()
 
     const langMap = {
         js: 'javascript',
@@ -42,19 +48,11 @@
         <div class="filetree">
             <div class="files-header">FILES</div>
             {#each files as file}
-                <!-- only consider this the folder if it's a _module and not the actual root folder for the example -->
-                {@const isFolder =
-                    file.node.file.name === '_module' && file.node !== root ? 1 : 0}
-                {#if isFolder}
-                    <button>
-                        <div style="padding-left: {file.level * 16}px">
-                            {file.node.file.dir.split('/').pop()}/
-                        </div>
-                    </button>
-                {/if}
                 <TabsLink selected={file.selected} selectable={file.node.meta.src}>
-                    <span style="padding-left: {(file.level + isFolder) * 16}px">
+                    <span style="padding-left: {file.level * 16}px">
                         {file.node.file.base}
+                        <!-- dirs should end with / -->
+                        {#if file.isDir}/{/if}
                     </span>
                 </TabsLink>
             {/each}
