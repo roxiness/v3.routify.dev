@@ -1,11 +1,16 @@
 <script>
+    import Debugger from '@roxi/routify/lib/runtime/decorators/Debugger.svelte'
     import Nav from './_sidenav.svelte'
     import { Sidenav, Backdrop, screenSize } from 'polykit'
+    import ddecorator from './_decorator.svelte'
     import Links from '../__layout/Links.svelte'
     export let context
+
+    let decorator = import.meta.env.DEV ? [ddecorator, Debugger] : [ddecorator]
+    
+
     let open
     let state
-    const rewrite = path => path.replace(/.*\/docs\/pages\/?/, '/docs/#')
 </script>
 
 <!-- routify:meta bundle -->
@@ -21,7 +26,7 @@
                         <Links />
                         <hr />
                     </div>
-                    <Nav node={context.node.traverse('./pages')} {rewrite} />
+                    <Nav node={context.node} />
                 </div>
             </aside>
             {#if ['mobile', 'tablet'].includes($screenSize)}
@@ -29,8 +34,8 @@
             {/if}
 
             <div class="container main">
-                <main>
-                    <slot />
+                <main class="copy">
+                    <slot multi {decorator} />
                 </main>
             </div>
         </Sidenav>
@@ -38,13 +43,21 @@
 </div>
 
 <style>
+    .tablet .copy {
+        margin: 0 var(--spacing-7);
+    }
+
+    .desktop .copy {
+        margin: 0 var(--spacing-9);
+    }
+
     .container.main {
         padding: 0;
     }
     .brand {
         display: none;
     }
-    .mobile .brand { 
+    .mobile .brand {
         display: block;
         width: 160px;
         margin-top: -56px;
@@ -106,7 +119,7 @@
         background: white;
         border-radius: 4px;
         cursor: pointer;
-        border: 2px #FFA8FA solid;
+        border: 2px #ffa8fa solid;
     }
 
     :global(.closed) .sidenav-activator {
@@ -151,4 +164,5 @@
     .desktop .sidenav-activator {
         display: none;
     }
+
 </style>

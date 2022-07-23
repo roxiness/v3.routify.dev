@@ -10,7 +10,7 @@
      * }
      */
     import { Router } from '@roxi/routify'
-    import routes from '../../../../../../../../.routify/routes.exampleWidget.js'
+    import routes from '../../../../../../../.routify/routes.exampleWidget.js'
 </script>
 
 <div class="routers">

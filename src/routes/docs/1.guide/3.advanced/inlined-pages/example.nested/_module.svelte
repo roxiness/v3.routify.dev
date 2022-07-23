@@ -9,7 +9,7 @@
              pages in it. Here we're going to render the
              component's index -->
         <svelte:component 
-            this={childNode.traverse('./index').component} 
+            this={childNode.traverse('.', false, true).component} 
         />
     </svelte:component>
 {/each}

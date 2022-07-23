@@ -1,23 +1,20 @@
 <script>
+    import { isActive } from '@roxi/routify'
     import { slide } from 'svelte/transition'
-    import { activeHash } from './stores'
     export let node
     export let nested = 0
-    export let rewrite = path => path
     const getName = node => node.name + (node.meta.status ? ` [${node.meta.status}]` : '')
     const noExample = node => !node.name.match(/^example\.?/)
     const noInternal = node => node.name !== 'internal'
-
-    $: isActive = path => `/docs/#${$activeHash}`.startsWith(rewrite(path))
 </script>
 
 <ul class="nested-{nested}">
     {#each node.pages.filter(noExample).filter(noInternal) as child}
-        <li class:active={isActive(child.path)}>
-            <a href={rewrite(child.path)}>{getName(child)}</a>
-            {#if !nested || (child.pages.filter(noExample).length && isActive(child.path))}
+        <li class:active={$isActive(child.path)}>
+            <a href={child.path}>{getName(child)}</a>
+            {#if !nested || (child.pages.filter(noExample).length && $isActive(child.path))}
                 <div class="children" transition:slide|local>
-                    <svelte:self node={child} nested={nested + 1} {rewrite} />
+                    <svelte:self node={child} nested={nested + 1} />
                 </div>
             {/if}
         </li>

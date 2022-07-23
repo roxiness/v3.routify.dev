@@ -7,7 +7,7 @@ import axios from 'axios'
 
 /** we don't want to blow through our API request limit so we're only going to 
    refresh the requests when building for production */
-const shouldRefresh = false // ROUTIFY-REPLACE const shouldRefresh = process.env<<WEDGE>>.NODE_ENV === 'production'
+const shouldRefresh = false // ROUTIFY-REPLACE const shouldRefresh = process.env::WEDGE::.NODE_ENV === 'production'
 
 /**
  * @param {MetaContext} context

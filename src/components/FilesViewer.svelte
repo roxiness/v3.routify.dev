@@ -38,7 +38,7 @@
     const parseSrc = src =>
         src
             .split('\n')
-            .map(line => line.replace('<<WEDGE>>', ''))
+            .map(line => line.replace('::WEDGE::', ''))
             .map(line => line.replace(/.+\/\/ ROUTIFY-REPLACE /gm, ''))
             .join('\n')
 </script>
@@ -48,9 +48,9 @@
         <div class="filetree">
             <div class="files-header">FILES</div>
             {#each files as file}
-                <TabsLink selected={file.selected} selectable={file.node.meta.src}>
+                <TabsLink selected={file.selected} selectable={file.node?.meta.src}>
                     <span style="padding-left: {file.level * 16}px">
-                        {file.node.file.base}
+                        {file.node?.file.base}
                         <!-- dirs should end with / -->
                         {#if file.isDir}/{/if}
                     </span>

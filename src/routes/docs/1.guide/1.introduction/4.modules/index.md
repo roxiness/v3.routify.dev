@@ -27,3 +27,6 @@ Sometimes we may need to disable one or more parent modules. To do this we can u
 ```
 <!-- routify:meta reset=2 -->
 ```
+
+<!-- undo whatever the html parser picks up in the code block above -->
+<!-- routify:meta reset=false -->
