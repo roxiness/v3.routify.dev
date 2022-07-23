@@ -15,6 +15,7 @@ export default defineConfig({
                 exampleWidget:
                     'src/routes/docs/1.guide/3.advanced/multiple-routers/example.shared-tree/widget',
             },
+            ssr: { spank: { sitemap: ['/', '/docs'] } },
             devHelper: !production,
             extensions: ['.svelte', '.html', '.md', '.svx', '.meta.js'],
         }),
