@@ -15,14 +15,15 @@ export default defineConfig({
                 exampleWidget:
                     'src/routes/docs/1.guide/3.advanced/multiple-routers/example.shared-tree/widget',
             },
-            ssr: { spank: { sitemap: ['/', '/docs'] } },
+            ssr: { prerender: true, spank: { sitemap: ['/', '/docs'] }, enable: true },
             devHelper: !production,
             extensions: ['.svelte', '.html', '.md', '.svx', '.meta.js'],
         }),
         svelte({
-            emitCss: false,
+            emitCss: true,
             compilerOptions: {
                 dev: !production,
+                hydratable: true
             },
             extensions: ['.md', '.svelte'],
             preprocess: [mdsvex({ extension: 'md' })],
