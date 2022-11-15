@@ -7,24 +7,25 @@
     export let title
     export let focus = null
     export let show = false
+    const rootNode = $node.traverse(path)
 </script>
 
 <div class="example">
-        <Details {show}>
-            <button class="button-outline" slot="activator">Show example</button>
-            <span class="close" slot="deactivator">✖</span>
-            <div class="">
-                <h4>{title}</h4>
-                <p><slot/></p>
-                <div class="left-bar" />
-                <div class="fv">
-                    <FilesViewer root={resolveNode(path)} {focus} />
-                </div>
-                <div class="ex">
-                    <Browser rootNode={$node.traverse(path)} slot="browser" />
-                </div>
+    <Details bind:show>
+        <button class="button-outline" slot="activator">Show example</button>
+        <span class="close" slot="deactivator">✖</span>
+        <div class="">
+            <h4>{title}</h4>
+            <p><slot /></p>
+            <div class="left-bar" />
+            <div class="fv">
+                <FilesViewer root={resolveNode(path)} {focus} />
             </div>
-        </Details>
+            <div class="ex">
+                <Browser {rootNode} slot="browser" />
+            </div>
+        </div>
+    </Details>
 </div>
 
 <style>
