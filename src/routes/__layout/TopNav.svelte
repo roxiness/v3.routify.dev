@@ -7,7 +7,7 @@
 <nav class:scrollY>
     <div class="container">
         <a href="/">
-            <img class="brand" src="/assets/routify3.svg" />
+            <img alt="Routify" class="brand" src="/assets/routify3.svg" />
         </a>
         <div class="middle">
             <Links />
@@ -48,7 +48,7 @@
         padding-left: 24px;
         height: 56px;
     }
-    .spacer {
+    :global(.spacer) {
         width: var(--spacing-4);
     }
     .container {
@@ -77,15 +77,6 @@
         opacity: 0.5;
         padding: 0;
         margin: 0 8px;
-    }
-    .middle a:hover {
-        opacity: 1;
-    }
-    :global(.mobile) .middle,
-    :global(.mobile) .right,
-    :global(.tablet) .middle,
-    :global(.tablet) .right {
-        display: none;
     }
     :global(.mobile) .brand,
     :global(.tablet) .brand {
