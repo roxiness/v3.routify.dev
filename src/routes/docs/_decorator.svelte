@@ -3,7 +3,7 @@
     export let Parent, context
 </script>
 
-<svelte:component this={Parent}>
+<Parent>
     <!-- Custom deco {level} - {id} -->
 
     {#if context.node.level === 3}
@@ -45,30 +45,27 @@
         <h1>I should not be here!</h1>
         <slot />
     {/if}
-
-</svelte:component>
-
-
+</Parent>
 
 <style>
     :global(.tablet .copy) {
         margin: 0 var(--spacing-7);
     }
 
-    :global(.desktop) .copy {
+    /* :global(.desktop) .copy {
         margin: 0 var(--spacing-9);
-    }
+    } */
 
     .block {
         min-height: 256px;
         /* border-radius: var(--spacing-5); */
     }
-    .section {
+    /* .section {
         margin-top: 50vh;
-    }
-    .section:first-of-type {
+    } */
+    /* .section:first-of-type {
         margin-top: 0;
-    }
+    } */
     .section-hero {
         margin: 0;
         text-transform: uppercase;

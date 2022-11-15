@@ -21,7 +21,7 @@
             <aside slot="aside">
                 <div class="sidenav-activator" on:click={toggle}>☰</div>
                 <div class="container nav">
-                    <img class="brand" src="/assets/routify3.svg" />
+                    <img alt="Routify" class="brand" src="/assets/routify3.svg" />
                     <div class="links">
                         <Links />
                         <hr />

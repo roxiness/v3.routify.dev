@@ -4,8 +4,6 @@
     import { Window } from 'polykit'
 </script>
 
-<!-- routify:meta bundle -->
-
 <Window let:size>
     <div class="app {size}">
         {#if $activeRoute.url !== '/' && size !== 'mobile'}

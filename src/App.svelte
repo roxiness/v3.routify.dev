@@ -1,6 +1,5 @@
 <script>
-    import { Router } from '@roxi/routify'
-    import routes from '../.routify/routes.default.js'
+    import { Router, router } from '../.routify/instance.default.js'
 </script>
 
-<Router {routes} />
+<Router {router} />

@@ -9,22 +9,20 @@
     },
     "scripts": {
         "dev": "vite",
-        "build": "npm run build:client && npm run build:server",
-        "build:client": "vite build",
-        "build:server": "vite build --ssr",
-        "serve": "vite preview"
+        "build": "vite build",
+        "preview": "vite preview"
     },
     "devDependencies": {
-        "@roxi/routify": "^3.0.0-next.94",
-        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.26",
+        "@roxi/routify": "^3.0.0-next.129",
+        "@sveltejs/vite-plugin-svelte": "^1.0.9",
         "axios": "^0.21.1",
-        "mdsvex": "^0.9.3",
+        "mdsvex": "^0.10.6",
         "npm-run-all": "^4.1.5",
-        "polykit": "^0.0.1-8",
-        "spank": "^2.0.0-5",
-        "svelte": "^3.39.0",
+        "polykit": "^0.2.0",
+        "spank": "^2.0.0-11",
+        "svelte": "^3.52.0",
         "svelte-prism": "^1.1.6",
-        "vite": "^3.0.9"
+        "vite": "^3.1.8"
     },
     "routify": {
         "plugins": [
