@@ -4,7 +4,7 @@
     export let rootNode
     export let url = '/'
     export let urlReflector = InternalReflector
-    export let name = 'example'
+    export let name = 'example'+rootNode.id
     let router
 </script>
 
