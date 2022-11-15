@@ -17,6 +17,7 @@
 
 <style>
     .bar {
+        z-index: 100;
         position: relative;
     }
 </style>
