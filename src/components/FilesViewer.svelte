@@ -13,10 +13,11 @@
     const addFiles = (node, level = 0) => {
         node.children.forEach(node => {
             const relativeFromRoot = node.file.path.replace(regexPath, '')
-            if (node.file.name === '_module')
-                files.push({ level, name: node.file.dir, isDir: true })
+            const isModule = node.file.name === '_module'
+            if (isModule)
+                files.push({ level, name: node.name, isDir: true })
             files.push({
-                level,
+                level: isModule ? level + 1 : level,
                 node,
                 isDir: !node.meta.src,
                 selected: relativeFromRoot === focus,
@@ -50,7 +51,7 @@
             {#each files as file}
                 <TabsLink selected={file.selected} selectable={file.node?.meta.src}>
                     <span style="padding-left: {file.level * 16}px">
-                        {file.node?.file.base}
+                        {file.node?.file.base || file.name}
                         <!-- dirs should end with / -->
                         {#if file.isDir}/{/if}
                     </span>
