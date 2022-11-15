@@ -34,7 +34,7 @@ Alternatively, the file can be prepended with a `@`. Eg.  `bar@.svelte` in the e
 If we visit the URL `/admin/dashboard/bar`, the rendered components would be `admin/dashboard/bar@svelte`
 
 
-#### replacing parent modules with a named module
+#### Replacing parent modules with a named module
 Replacing a parent modules can be done by using the meta option `<!--routify:meta reset="<name of module>" -->`. Eg. `<!--routify:meta reset="fun" -->`.
 
 Alternatively, the file can be prepended with `@<name of module>`. Eg. `baz@fun.svelte`.
@@ -43,7 +43,7 @@ If we visit the URL `/admin/dashboard/baz`,
 the rendered components would be `_module-fun.svelte` -> `admin/dashboard/baz@fun.svelte`.
 
 
-#### prepending parent modules with a named module
+#### Prepending parent modules with a named module
 Modules can prepended by using the meta option `<!--routify:meta reset="<name of module>+" -->`. Eg. `<!--routify:meta reset="fun+" -->`. Notice the `+`.
 
 Alternatively, the file can be prepended with `@<name of module>+`. Eg. `qux@fun+.svelte`. Notice the `+`.
@@ -51,6 +51,11 @@ Alternatively, the file can be prepended with `@<name of module>+`. Eg. `qux@fun
 If we visit the URL `/admin/dashboard/qux`,
 the rendered components would be 
 `_module-fun.svelte` -> `_module.svelte` -> `admin/module.svelte` -> `admin/dashboard/_module.svelte` -> `admin/dashboard/foo.svelte`.
+
+<!-- todo we should be able to use _module@global.svelte -->
+
+#### Global module
+To create a global module we can can create a `_module-global.svelte` in the root and then use it in `_module.svelte` by adding the comment `<!--routify:meta reset="global+" -->`.
 
 <!-- we need to reset reset, because Routify will read the meta tags in the examples -->
 <!-- routify:meta reset=null -->
