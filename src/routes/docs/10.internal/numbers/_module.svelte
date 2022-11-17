@@ -1,7 +1,6 @@
 <script>
     import { Router } from '@roxi/routify'
-    export let context
-
+    
     $: pages = [
         // { activeUrl: Internal().set('/experiments/numbers/102') },
         // { activeUrl: Address },
