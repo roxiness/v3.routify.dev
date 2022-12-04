@@ -2,11 +2,11 @@
     import Debugger from '@roxi/routify/lib/runtime/decorators/Debugger.svelte'
     import Nav from './_sidenav.svelte'
     import { Sidenav, Backdrop, screenSize } from 'polykit'
-    import ddecorator from './_decorator.svelte'
+    import _decorator from './_decorator.svelte'
     import Links from '../__layout/Links.svelte'
     export let context
 
-    let decorator = import.meta.env.DEV ? [ddecorator, Debugger] : [ddecorator]
+    let decorator = import.meta.env.DEV ? [_decorator, Debugger] : [_decorator]
     
 
     let open
