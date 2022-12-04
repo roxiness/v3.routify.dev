@@ -4,7 +4,7 @@ import { mdsvex } from 'mdsvex'
 import { readFileSync } from 'fs'
 import routify from '@roxi/routify/vite-plugin'
 
-const production = process.env.NODE_ENV !== 'development'
+const production = process.env.NODE_ENV === 'production'
 
 export default defineConfig({
     clearScreen: false,
@@ -15,7 +15,7 @@ export default defineConfig({
                 exampleWidget:
                     'src/routes/docs/1.guide/3.advanced/multiple-routers/example.shared-tree/widget',
             },
-            ssr: { prerender: true, spank: { sitemap: ['/', '/docs'] }, enable: true },
+            ssr: { enable: !!production },
             devHelper: !production,
             extensions: ['.svelte', '.html', '.md', '.svx', '.meta.js'],
         }),
@@ -23,7 +23,7 @@ export default defineConfig({
             emitCss: true,
             compilerOptions: {
                 dev: !production,
-                hydratable: true
+                hydratable: !!process.env.ROUTIFY_SSR_ENABLE
             },
             extensions: ['.md', '.svelte'],
             preprocess: [mdsvex({ extension: 'md' })],
