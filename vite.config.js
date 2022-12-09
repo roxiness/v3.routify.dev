@@ -20,7 +20,7 @@ export default defineConfig({
             extensions: ['.svelte', '.html', '.md', '.svx', '.meta.js'],
         }),
         svelte({
-            emitCss: true,
+            emitCss: !production,
             compilerOptions: {
                 dev: !production,
                 hydratable: !!process.env.ROUTIFY_SSR_ENABLE
