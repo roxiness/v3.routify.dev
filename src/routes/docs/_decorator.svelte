@@ -1,51 +1,49 @@
 <script>
     import { url } from '@roxi/routify'
-    export let Parent, context
+    export let context
 </script>
 
-<Parent>
-    <!-- Custom deco {level} - {id} -->
+<!-- Custom deco {level} - {id} -->
 
-    {#if context.node.level === 3}
-        <!-- SECTION -->
-        <h1 class="section-hero">
+{#if context.node.level === 3}
+    <!-- SECTION -->
+    <h1 class="section-hero">
+        <a href={$url('./')}>
+            {context.node.name}
+        </a>
+    </h1>
+    <div class="categories">
+        <slot />
+    </div>
+{:else if context.node.level === 4}
+    <!-- CATEROGY -->
+    <div class="category">
+        <h2 class="category-header">
             <a href={$url('./')}>
                 {context.node.name}
             </a>
-        </h1>
-        <div class="categories">
+        </h2>
+        <div class="block">
             <slot />
         </div>
-    {:else if context.node.level === 4}
-        <!-- CATEROGY -->
-        <div class="category">
-            <h2 class="category-header">
-                <a href={$url('./')}>
-                    {context.node.name}
-                </a>
-            </h2>
-            <div class="block">
-                <slot />
-            </div>
-        </div>
-    {:else if context.node.level === 5}
-        <!-- SUBJECT -->
-        {#if context.node.name !== 'index'}
-            <h3 class="subject-header">
-                <a href={$url('./')}>
-                    {context.node.name}
-                </a>
-            </h3>
-        {/if}
-        <slot />
-    {:else if context.node.level === 6}
-        <!-- WUT? -->
-        <slot />
-    {:else}
-        <h1>I should not be here!</h1>
-        <slot />
+    </div>
+{:else if context.node.level === 5}
+    <!-- SUBJECT -->
+    {#if context.node.name !== 'index'}
+        <h3 class="subject-header">
+            <a href={$url('./')}>
+                {context.node.name}
+            </a>
+        </h3>
     {/if}
-</Parent>
+    <slot />
+{:else if context.node.level === 6}
+    <!-- WUT? -->
+    <slot />
+{:else}
+    <h1>I should not be here!</h1>
+    <slot />
+{/if}
 
 <style>
     :global(.tablet .copy) {
