@@ -8,7 +8,7 @@
     let router
 </script>
 
-<div class="example">
+<div class="example" data-routify-scroll="lock">
     <Bar {router}>
         <div class="router">
             <Router {name} {rootNode} {url} {urlReflector} bind:router />

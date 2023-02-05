@@ -6,7 +6,7 @@
     import Links from '../__layout/Links.svelte'
     export let context
 
-    let decorator = import.meta.env.DEV ? [_decorator, Debugger] : [_decorator]
+    let decorator = import.meta.env.DEV ? [Debugger] : []
     
 
     let open
@@ -35,7 +35,7 @@
 
             <div class="container main">
                 <main class="copy">
-                    <slot multi {decorator} />
+                    <slot multi {decorator} anchor="wrapper"/>
                 </main>
             </div>
         </Sidenav>
