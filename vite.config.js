@@ -6,6 +6,8 @@ import routify from '@roxi/routify/vite-plugin'
 
 const production = process.env.NODE_ENV === 'production'
 
+console.log('process', process.env)
+
 export default defineConfig({
     clearScreen: false,
     plugins: [
