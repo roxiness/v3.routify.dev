@@ -6,7 +6,6 @@ import routify from '@roxi/routify/vite-plugin'
 
 const production = process.env.NODE_ENV === 'production'
 
-console.log('process', process.env)
 
 export default defineConfig({
     clearScreen: false,
@@ -19,6 +18,7 @@ export default defineConfig({
             },
             ssr: { enable: !!production },
             devHelper: !production,
+            // devHelper: !production,
             extensions: ['.svelte', '.html', '.md', '.svx', '.meta.js'],
         }),
         svelte({
