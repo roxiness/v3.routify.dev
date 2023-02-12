@@ -13,7 +13,14 @@ Collections of routes
 [Should this be renamed Collections?]
 
 #### Router
-The engine of Routify. The router handles the composition of the rendered components.
+The heart of Routify. The router handles the composition of the rendered components.
+
+### Route
+All routers always have one active Route class. This class contains information about the current route.
+
+### Route fragments
+A Route fragment is a segment (eg. bar of foo/bar/baz) of the current URL mapped to a RouteFragment class.
+The class contains information like parameters for the respective fragment.
 
 #### Node
 Nodes are the heart of Routify and can be thought of as a virtual file system. Nodes can be accessed from the browser address bar using the the path you would have used in a file system. Eg. the path `info/contact.svelte` and `info/contact/index.svelte` can both be accessed at `/info/contact`
