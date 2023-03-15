@@ -16,6 +16,7 @@ export default defineConfig({
                 exampleWidget:
                     'src/routes/docs/1.guide/3.advanced/multiple-routers/example.shared-tree/widget',
             },
+            ignoreMetaConflictWarnings: [ 'todo', 'movies', 'luke', 'leia', 'darth|split' , 'status'],
             ssr: { enable: !!production },
             devHelper: !production,
             // devHelper: !production,
