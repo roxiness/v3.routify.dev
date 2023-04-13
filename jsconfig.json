@@ -3,8 +3,8 @@
          "checkJs": true,
         "baseUrl": ".",
         "paths": {
-            "#cmp/*": ["./src/cmp/*"],
-            "#root/*": ["./*"]
+            "#cmp/*": ["./src/components/*"],
+            "#root/*": ["./*"],
         },
         "target": "esnext",
         "moduleResolution": "node"
