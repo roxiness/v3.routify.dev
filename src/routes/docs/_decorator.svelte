@@ -1,6 +1,7 @@
 <script>
     import { url } from '@roxi/routify'
     export let context
+    export let isRoot
 </script>
 
 <!-- Custom deco {level} - {id} -->

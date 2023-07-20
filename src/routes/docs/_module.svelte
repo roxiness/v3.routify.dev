@@ -35,7 +35,7 @@
 
             <div class="container main">
                 <main class="copy">
-                    <slot multi {decorator} anchor="wrapper"/>
+                    <slot inline {decorator} anchor="wrapper"/>
                 </main>
             </div>
         </Sidenav>

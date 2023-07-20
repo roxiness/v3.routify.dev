@@ -1,5 +1,5 @@
 <script>
-    import { Details, SmoothBox } from 'polykit'
+    import { Details } from 'polykit'
     import { resolveNode, node } from '@roxi/routify'
     import FilesViewer from '#cmp/FilesViewer.svelte'
     import Browser from '#cmp/minibrowser/MiniBrowser.svelte'
@@ -10,7 +10,7 @@
     const rootNode = $node.traverse(path)
 </script>
 
-<div class="example">
+<div class="example" data-routify-scroll-lock>
     <Details bind:show>
         <button class="button-outline" slot="activator">Show example</button>
         <span class="close" slot="deactivator">✖</span>
