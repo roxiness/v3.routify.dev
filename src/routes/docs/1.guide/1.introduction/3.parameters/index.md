@@ -10,7 +10,7 @@ Parameters can be accessed in Routify with the $params helper, eg. `$param.page`
 
 To generate a URL, we have the $url helper: `$url('/posts', {page: 1})`. This would produce the string `/posts?page=1`
 
-#### Syntactical sugar
+#### Pretty URLS
 
 Often we want our URLs to look a little more appealing. For instance, `/posts/1` would look nicer than the previous example.
 
