@@ -10,15 +10,15 @@
  *          use the split tag must be accessed with `await` or `entry.then()`
  */
 
-import axios from 'axios'
+
 
 export default async context => {
     return {
-        luke: (await axios.get('https://swapi.dev/api/people/1/')).data,
-        'darth|split': (await axios.get('https://swapi.dev/api/people/4/')).data,
+        luke: await fetch('https://swapi.dev/api/people/1/').then(res => res.json()),
+        'darth|split': await fetch('https://swapi.dev/api/people/4/').then(res => res.json()),
         leia: {
-            value: (await axios.get('https://swapi.dev/api/people/5/')).data,
-            split: true,
+          value: await fetch('https://swapi.dev/api/people/5/').then(res => res.json()),
+          split: true,
         },
-    }
+      };
 }

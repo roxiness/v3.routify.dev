@@ -3,14 +3,14 @@
  * They can be used instead of - or along with - inlined metadata.
  */
 
-import axios from 'axios'
-
 /**
  * @param {MetaContext} context
  */
 export default async ({ split }) => {
     // fetch some movies
-    const films = (await axios.get('https://swapi.dev/api/films')).data.results
+    const response = await fetch('https://swapi.dev/api/films');
+    const data = await response.json();
+    const films = data.results
 
 
     return {
