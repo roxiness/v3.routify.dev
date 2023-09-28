@@ -2,7 +2,7 @@
     import { node } from '@roxi/routify'
 </script>
 
-{#each $node.pages as childNode}
+{#each $node.linkableChildren as childNode}
     <!-- Render a page or module -->
     <svelte:component this={childNode.component}>
         <!-- If a we're rendering a module we can render

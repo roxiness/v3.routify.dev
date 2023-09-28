@@ -7,14 +7,15 @@
         (node.meta.name || node.name.replace(/-/g, ' ')) +
         (node.meta.status ? ` [${node.meta.status}]` : '')
     const noExample = node => !node.name.match(/^example\.?/)
+    const noIndex = node => node.name !== 'index'
     const noInternal = node => node.name !== 'internal'
 </script>
 
 <ul class="nested-{nested}">
-    {#each node.pages.filter(noExample).filter(noInternal) as child}
+    {#each node.linkableChildren.filter(noExample).filter(noInternal).filter(noIndex) as child}
         <li class:active={$isActive(child.path)}>
             <a href={child.path}>{getName(child)}</a>
-            {#if !nested || (child.pages.filter(noExample).length && $isActive(child.path))}
+            {#if !nested || (child.linkableChildren.filter(noExample).length && $isActive(child.path))}
                 <div class="children" transition:slide|local>
                     <svelte:self node={child} nested={nested + 1} />
                 </div>
