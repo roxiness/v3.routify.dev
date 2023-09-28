@@ -14,7 +14,8 @@ export default () => ({
         instance.nodeIndex.forEach(node => {
             if (!node.file.stat.isDirectory())
                 node.meta.src = tools.split(
-                    readFileSync(node.file.path, 'utf-8'),
+                    // vite fix. vite does not like import.meta.env as it will be replaced by vite with the actual env variables
+                    readFileSync(node.file.path, 'utf-8').replace(/import\.meta\.env/, ''),
                     routifyDir + '/ownSourcePlugin/' + node.file.path + '.src.js',
                 )
         })
