@@ -6,7 +6,6 @@ import routify from '@roxi/routify/vite-plugin'
 
 const production = process.env.NODE_ENV === 'production'
 
-
 export default defineConfig({
     clearScreen: false,
     plugins: [
@@ -16,11 +15,34 @@ export default defineConfig({
                 exampleWidget:
                     'src/routes/docs/1.guide/3.advanced/multiple-routers/example.shared-tree/widget',
             },
-            ignoreMetaConflictWarnings: [ 'todo', 'movies', 'luke', 'leia', 'darth|split' , 'status'],
+            ignoreMetaConflictWarnings: [
+                'todo',
+                'movies',
+                'luke',
+                'leia',
+                'darth|split',
+                'status',
+            ],
             ssr: { enable: !!production },
             devHelper: !production,
             // devHelper: !production,
             extensions: ['.svelte', '.html', '.md', '.svx', '.meta.js'],
+            plugins: [
+                'plugins/indexByName',
+                'plugins/ownSourceMetaPlugin',
+                {
+                    name: 'exclude-meta.js',
+                    before: 'metaSplit',
+                    build: ({ instance, tools }) => {
+                        // .js files are not routes
+                        instance.nodeIndex.forEach(node => {
+                            if(node.file.base.endsWith('meta.js')) {
+                                node.meta.noRoute = true
+                            }
+                        })
+                    },
+                },
+            ],
         }),
         svelte({
             emitCss: !production,
