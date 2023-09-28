@@ -7,7 +7,7 @@
     export let context
 
     let decorator = import.meta.env.DEV ? [Debugger] : []
-    
+    const toggle = x => x
 
     let open
     let state
