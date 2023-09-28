@@ -4,7 +4,7 @@
 
     const attachNode = () => {
         const fooNode = context.node.traverse('../foo')
-        fooNode.createChild('bar', () => Bar)
+        fooNode.createChild('bar', Bar)
     }
 </script>
 
