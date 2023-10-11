@@ -5,6 +5,7 @@
     import _decorator from './_decorator.svelte'
     import Links from '../__layout/Links.svelte'
     export let context
+    import Disclaimer from './_disclaimer.svelte'
 
     let decorator = import.meta.env.DEV ? [Debugger] : []
     const toggle = x => x
@@ -35,6 +36,7 @@
 
             <div class="container main">
                 <main class="copy">
+                    <Disclaimer />
                     <slot inline {decorator} anchor="wrapper"/>
                 </main>
             </div>
