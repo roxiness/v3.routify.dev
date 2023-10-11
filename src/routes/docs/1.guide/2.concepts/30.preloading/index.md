@@ -14,3 +14,11 @@ Prefetching data by using a `props` field.
 Protected and redirecting from pages by using a `redirect` field.
 
 <Example focus="protected.md" path="../example.guard" title="Guard Example "/>
+
+#### preloading on hover
+You can also optimize user experience by prefetching data on hover. Add the `data-routify-prefetch-data="hover"`` attribute to an anchor element. This triggers data prefetching when the user hovers over the link.
+
+```html
+<a href="/next-page" data-routify-prefetch-data="hover">Next Page</a>
+```
+This enables quicker page loads by initiating data fetching even before the user clicks the link.
