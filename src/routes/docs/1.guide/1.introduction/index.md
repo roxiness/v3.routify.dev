@@ -1,1 +1,1 @@
-We'll write a nice introduction here, we promise.
+Welcome to the Routify 3 Documentation. As the latest update to our Svelte-based router, Routify 3 is engineered to help developers build robust and scalable applications. This documentation will walk you through all you need to know.
