@@ -8,7 +8,6 @@
     import Disclaimer from './_disclaimer.svelte'
 
     let decorator = import.meta.env.DEV ? [Debugger] : []
-    const toggle = x => x
 
     let open
     let state
@@ -18,8 +17,8 @@
 
 <div class="app {$screenSize} {state}">
     <div class="container outer">
-        <Sidenav bind:open bind:state let:toggle asidePositioning="absolute">
-            <aside slot="aside">
+        <Sidenav bind:open bind:state asidePositioning="absolute">
+            <aside slot="aside" let:toggle>
                 <div class="sidenav-activator" on:click={toggle}>☰</div>
                 <div class="container nav">
                     <img alt="Routify" class="brand" src="/assets/routify3.svg" />
