@@ -17,7 +17,7 @@
         <slot />
     </div>
 {:else if context.node.level === 4}
-    <!-- CATEROGY -->
+    <!-- CATEGORY -->
     <div class="category">
         <h2 class="category-header">
             <a href={$url('./')}>
