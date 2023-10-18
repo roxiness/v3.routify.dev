@@ -9,7 +9,8 @@
         <a href="/">
             <img alt="Routify" class="brand" src="/assets/routify3.svg" />
         </a>
-        <div class="middle">
+        <div />
+        <div class="links">
             <Links />
         </div>
         <!-- <div
@@ -52,28 +53,27 @@
         width: var(--spacing-4);
     }
     .container {
-        grid-template-columns: var(--left-nav) auto auto;
-        display: grid;
+        display: flex;
+        justify-content: space-between;         
         padding: 0;
     }
-    .middle {
+    .links {
         display: flex;
-        padding-left: var(--spacing-9);
         align-items: center;
+        padding-right: 16px;
     }
-    .middle :global(a) {
+    .links :global(a) {
         font-size: 20px;
         color: var(--color-grey-700);
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0 var(--spacing-2);
-        /* font-weight: 500; */
     }
-    .middle :global(a:first-of-type) {
+    .links :global(a:first-of-type) {
         margin-left: 0;
     }
-    .middle :global(a.icon) {
+    .links :global(a.icon) {
         opacity: 0.5;
         padding: 0;
         margin: 0 8px;
@@ -81,10 +81,5 @@
     :global(.mobile) .brand,
     :global(.tablet) .brand {
         text-align: center;
-    }
-    :global(.mobile) .container,
-    :global(.tablet) .container {
-        grid-template-columns: auto;
-        justify-content: center;
     }
 </style>

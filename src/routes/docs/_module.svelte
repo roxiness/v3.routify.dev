@@ -73,8 +73,7 @@
     .app {
         height: 100vh;
     }
-    :global(.container) {
-        max-width: 1240px;
+    :global(.container) {        
         padding: 0 var(--spacing-4);
     }
 
