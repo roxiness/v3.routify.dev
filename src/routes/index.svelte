@@ -2,8 +2,6 @@
     import img from '../components/assets/Ilustration_V2_3d_design_modern_pink_1.jpg'
     import { InternalReflector, Router, node } from '@roxi/routify'
 
-    const featuresNode = $node.parent.children.find(node => node.name === '_features')
-
     const data = {
         features: [
             [
@@ -86,7 +84,7 @@
         <div class="container" data-routify-scroll-lock>
             <h2 class="section-title">Feature Previews</h2>
             <Router
-                rootNode={featuresNode}
+                rootNode={$node.traverse('../_features')}
                 name="feature"
                 urlReflector={InternalReflector} />
         </div>
