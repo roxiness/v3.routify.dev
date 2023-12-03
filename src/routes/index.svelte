@@ -47,8 +47,8 @@
                 <img src={img} alt="Hero image" />
             </div>
             <div class="body">
-                <h1>The Router that Grows With You</h1>
-                <h4>
+                <h1 class="hero-title">The Router that Grows With You</h1>
+                <h4 class="hero-subtitle">
                     Embrace a routing solution that evolves with your needs and
                     complexities.
                 </h4>
@@ -62,7 +62,7 @@
     <!-- Features Overview -->
     <section class="features">
         <div class="container">
-            <h2>Features Overview</h2>
+            <h2 class="section-title">Features Overview</h2>
             <div class="features-wrap">
                 {#each data.features as [title, description]}
                     <div class="feature">
@@ -84,7 +84,7 @@
     <!-- Feature Preview -->
     <section class="feature-preview">
         <div class="container" data-routify-scroll-lock>
-            <h2>Feature Previews</h2>
+            <h2 class="section-title">Feature Previews</h2>
             <Router
                 rootNode={featuresNode}
                 name="feature"
@@ -95,7 +95,7 @@
     <!-- What's New in Routify 3 -->
     <section id="whats-new">
         <div class="container">
-            <h2>What's New in Routify 3</h2>
+            <h2 class="section-title">What's New in Routify 3</h2>
             <p>
                 Rewritten from scratch, Routify 3 introduces a slew of new features and
                 enhancements to elevate your development experience.
@@ -147,7 +147,7 @@
     <section class="get-started" id="get-started">
         <div class="container">
             <div class="dialog">
-                <h2>Get Started</h2>
+                <h2 class="section-title">Get Started</h2>
                 <p>Initialize your Routify 3 project with a single command:</p>
                 <pre><code>npm init routify@next</code></pre>
                 <a href="/docs" class="cta-button">Read the Documentation</a>
@@ -165,17 +165,23 @@
 </div>
 
 <style>
+    /*
+     * LAYOUT
+     */
     .landing-page {
         display: flex;
         flex-direction: column;
-        align-items: center;
         font-size: clamp(16px, 2vw, 20px);
     }
 
     .landing-page > section {
-        padding: 128px 0;
-        /* padding: 128px 16px; */
+        display: flex;
+        padding: 64px 0;
         width: 100%;
+    }
+
+    :global(.desktop) .landing-page > section {
+        padding: 128px 0;
     }
 
     .landing-page > section .container {
@@ -184,19 +190,22 @@
         align-items: center;
         gap: 32px;
     }
-    .landing-page > section > p {
-        font-size: clamp(16px, 3vw, 21px);
+    .landing-page > section > .container > p {
+        /* font-size: clamp(16px, 3vw, 21px); */
     }
-
-    h2 {
+    h2.section-title {
         font-size: clamp(36px, 8vw, 48px);
     }
-    .hero .container h1 {
+
+    /*
+     * HERO 
+     */
+    .hero .container h1.hero-title {
         font-size: clamp(21px, -1px + 6.6vw, 76px);
         text-wrap: pretty;
         text-align: center;
     }
-    .hero .container h4 {
+    .hero .container h4.hero-subtitle {
         font-size: clamp(16px, 2.8vw, 24px);
         line-height: 1.5;
         text-align: center;
@@ -204,10 +213,9 @@
 
     .hero .container .body {
         flex-direction: column;
-        /* justify-content: center; */
         gap: clamp(4px, 0.6vw, 8px);
     }
-    .hero .container .body button {
+    .hero .container button {
         align-self: center;
         font-size: clamp(16px, 2vw, 18px);
         padding: clamp(4px, 0.6vw, 8px) clamp(16px, 1.8vw, 24px);
@@ -222,26 +230,35 @@
     .hero .container .body {
         flex: 3;
     }
-    @media (min-width: 720px) {
-        .landing-page .hero h1 {
-            text-align: left;
-        }
-        .landing-page .hero .container {
-            flex-direction: row-reverse;
-            min-height: calc(90vh - 64px);
-            padding: 32px 16px !important;
-        }
-        .hero .container h4 {
-            text-align: left;
-        }
-        .hero .container .body a {
-            align-self: flex-start;
-        }
+    /* Hero - desktop */
+    .desktop .landing-page .hero {
+        min-height: calc(90vh - 64px);
     }
+
+    .desktop .landing-page .hero h1.hero-title {
+        text-align: left;
+    }
+    .desktop .landing-page .hero .container {
+        flex-direction: row-reverse;
+        padding: 32px 16px !important;
+    }
+    .desktop .hero .container h4.hero-subtitle {
+        text-align: left;
+    }
+    .desktop .hero .container .body a {
+        align-self: flex-start;
+    }
+
+    /*
+     * FEATURE PREVIEW
+     */
     .feature-preview {
         gap: 32px;
     }
 
+    /*
+     * FEATURES
+     */
     .features {
         background: rgb(238, 174, 202);
         background: radial-gradient(
@@ -250,19 +267,9 @@
             rgba(148, 187, 233, 1) 100%
         );
     }
-    .features .container h2 {
-        font-size: clamp(36px, 8vw, 48px);
-    }
+
     .features .container > p {
         font-size: clamp(16px, 3vw, 21px);
-    }
-    .features .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 16px;
-
-        gap: 32px;
     }
 
     .features-wrap {
@@ -273,7 +280,7 @@
         width: 100%;
     }
 
-    .feature {
+    .features .feature {
         padding: clamp(16px, 2vw, 32px);
         text-align: center;
         flex: 0 1 calc(33.333% - 32px);
@@ -281,20 +288,21 @@
         flex-grow: 1;
         background: white;
     }
-    .feature:hover {
-        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+
+    .features .feature:hover {
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
     }
 
+    /*
+     * WHAT'S NEW
+     */
     #whats-new {
-        /* box-shadow inner at top */
         box-shadow: inset 0 16px 16px -16px rgba(0, 0, 0, 0.2);
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 32px;
     }
 
+    /*
+     * GET STARTED
+     */
     .get-started {
         background: #800080; /* fallback for old browsers */
         background: -webkit-linear-gradient(
