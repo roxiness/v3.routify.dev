@@ -16,7 +16,7 @@
 
 <style>
     .nav {
-        width: 100%;
+        width: 50%;
     }
     .features {
         width: 100%;
@@ -27,13 +27,11 @@
     .tabs {
         display: flex;
         overflow-x: hidden;
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
         scroll-behavior: smooth;
         position: relative;
-        z-index: 0;
+        /* z-index: 0; */
         width: 100%;
-        /* width: calc(100% + 32px); */
-        /* margin: 0 -16px; */
     }
     /* tabs */
     :global(.tabs > *) {
@@ -105,9 +103,6 @@
             100% 10px,
             100% 10px !important;
     }
-    /* :global(:where(.mobile, .tablet) .tabs .media) {
-        margin: 0 -16px;
-    } */
     :global(:where(.mobile, .tablet) .tabs .title) {
         margin: 24px 0 8px 0;
         font-size: 18px;
