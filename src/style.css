@@ -15,7 +15,12 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-    scroll-padding-top: 400px;
+}
+/* min width */
+@media (min-width: 1024px) {
+    html {
+        scroll-padding-top: 120px;
+    }
 }
 
 body {
