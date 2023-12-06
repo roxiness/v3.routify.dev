@@ -32,6 +32,7 @@
     nav {
         position: fixed;
         z-index: 1000;
+        inset: 0;
         width: 100vw;
         height: var(--spacing-8);
         align-items: center;

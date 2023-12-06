@@ -29,7 +29,7 @@
 </script>
 
 <Window let:size bind:screenSize>
-    <div class="app {state} {isLoading}">
+    <div class="app {state} {isLoading} container">
         {#if size === 'desktop'}
             <TopNav />
         {/if}
@@ -64,6 +64,10 @@
     :global(.is-loading > .polykit-sidenav > *) {
         transition: none !important;
     }
+
+.app.container {
+    padding: 0 !important;
+}
 
     .brand {
         display: block;

@@ -24,27 +24,20 @@
 </div>
 
 <style>
+    .copy {
+        margin: 0 var(--spacing-2);
+    }
     :global(.tablet) .copy {
-        margin: 0 var(--spacing-7);
+        margin: 0 var(--spacing-4);
     }
 
     :global(.desktop) .copy {
-        margin: 0 var(--spacing-9);
+        margin: 0 var(--spacing-7);
     }
 
     .container.main {
         padding: 0;
-    }
-
-    main {
         min-height: 400px;
         padding-top: 72px;
-    }
-
-    /**
-    * Mobile
-    */
-    :global(.mobile) main {
-        padding: var(--spacing-6) var(--spacing-4);
     }
 </style>
