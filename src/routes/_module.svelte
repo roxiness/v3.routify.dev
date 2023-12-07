@@ -65,9 +65,9 @@
         transition: none !important;
     }
 
-.app.container {
-    padding: 0 !important;
-}
+    .app.container {
+        padding: 0 !important;
+    }
 
     .brand {
         display: block;
@@ -107,8 +107,11 @@
     aside {
         position: fixed;
         width: inherit;
-        background: #fdf6fe;
         height: 100vh;
+        background: white;
+    }
+    .desktop aside {
+        background: #fdf6fe;
     }
 
     aside,
@@ -148,10 +151,10 @@
         background: white;
     }
 
-    .mobile.open aside {
+    :global(.mobile.open) aside {
         box-shadow: 0 0 18px -3px rgba(0 0 0 / 0.4);
     }
-
+    
     /**
     * Mobile
     */
