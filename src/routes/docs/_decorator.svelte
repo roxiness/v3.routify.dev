@@ -79,6 +79,9 @@
         background: linear-gradient(to left, #ffc0cb, #800080);
         padding: 3rem 2rem 1rem;
         font-size: clamp(2.5rem, 4vw, 4rem);
+        & a {
+            color: white;
+        }
     }
     :global(.mobile .subject-header, .mobile .category-header) {
         margin-inline: -2rem;
