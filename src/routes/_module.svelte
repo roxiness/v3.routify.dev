@@ -13,6 +13,7 @@
     let screenSize
     let update
     let isLoading = ''
+    let layout = 'container'
 
     export let presets = {
         default: { open: true, transform: 'shrink' },
@@ -23,13 +24,14 @@
 
     $afterUrlChange(ctx => {
         isLoading = 'is-loading'
-        setTimeout(() => (isLoading = ''), 100)
         open = $isActive('./docs') && $screenSize === 'desktop'
+        setTimeout(() => (isLoading = ''), 100)
     })
+    $: layout = $isActive('/index') ? '' : 'container'
 </script>
 
 <Window let:size bind:screenSize>
-    <div class="app {state} {isLoading} container">
+    <div class="app {state} {isLoading} {layout}">
         {#if size === 'desktop'}
             <TopNav />
         {/if}
@@ -154,7 +156,7 @@
     :global(.mobile.open) aside {
         box-shadow: 0 0 18px -3px rgba(0 0 0 / 0.4);
     }
-    
+
     /**
     * Mobile
     */
