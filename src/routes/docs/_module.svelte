@@ -17,21 +17,21 @@
 <!-- routify:meta bundle -->
 
 <div class="container main">
-    <main class="copy">
+    <main class="docs">
         <Disclaimer />
         <slot inline {decorator} {anchor} />
     </main>
 </div>
 
 <style>
-    .copy {
+    .docs {
         margin: 0 var(--spacing-2);
     }
-    :global(.tablet) .copy {
+    :global(.tablet) .docs {
         margin: 0 var(--spacing-4);
     }
 
-    :global(.desktop) .copy {
+    :global(.desktop) .docs {
         margin: 0 var(--spacing-7);
     }
 

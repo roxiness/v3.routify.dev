@@ -13,27 +13,21 @@
             {context.node.name}
         </a>
     </h1>
-    <div class="categories">
-        <slot />
-    </div>
+    <slot />
 {:else if context.node.level === 4}
     <!-- CATEGORY -->
-    <div class="category">
-        <h2 class="category-header">
-            <a href={$url('./')}>
-                {context.node.name}
-            </a>
-        </h2>
-        <div class="block">
-            <slot />
-        </div>
-    </div>
+    <h2 class="category-header">
+        <a href={$url('./')}>
+            {context.node.title}
+        </a>
+    </h2>
+    <slot />
 {:else if context.node.level === 5}
     <!-- SUBJECT -->
     {#if context.node.name !== 'index'}
         <h3 class="subject-header">
             <a href={$url('./')}>
-                {context.node.name}
+                {context.node.title}
             </a>
         </h3>
     {/if}
@@ -51,25 +45,19 @@
         margin: 0 var(--spacing-7);
     }
 
-    /* :global(.desktop) .copy {
-        margin: 0 var(--spacing-9);
-    } */
-
     .block {
         min-height: 256px;
-        /* border-radius: var(--spacing-5); */
     }
-    /* .section {
-        margin-top: 50vh;
-    } */
-    /* .section:first-of-type {
-        margin-top: 0;
-    } */
     .section-hero {
         margin: 0;
         text-transform: uppercase;
         font-weight: bold;
-        border-bottom: 8px solid #606c76;
+        font-size: clamp(8rem, 18vw, 20rem);
+        border-bottom: 16px solid #606c76;
+    }
+    :global(.mobile .section-hero) {
+        margin: 0 -2rem;
+        padding: 0 2rem;
     }
     .category:not(:nth-of-type(2)) .category-header {
         border-top: 4px solid var(--color-grey-300);
@@ -77,12 +65,32 @@
     }
     .category-header {
         text-transform: capitalize;
-        font-weight: bold;
+        font-weight: 900;
+        padding: 7rem 0 1rem;
+        font-size: clamp(3rem, 7vw, 7rem);
     }
+
     .subject-header {
         text-transform: capitalize;
-        font-weight: bold;
+        color: white;
+        background: #bd239b;
+        background: #800080;
+        background: -webkit-linear-gradient(to left, #ffc0cb, #800080);
+        background: linear-gradient(to left, #ffc0cb, #800080);
+        padding: 3rem 2rem 1rem;
+        font-size: clamp(2.5rem, 4vw, 4rem);
     }
+    :global(.mobile .subject-header, .mobile .category-header) {
+        margin-inline: -2rem;
+        padding-inline: 2rem;
+    }
+    :global(.category-header + .subject-header) {
+        margin-top: 0 !important;
+    }
+    :global(.subject-header + .category-header) {
+        margin-bottom: 0 !important;
+    }
+
     a:visited {
         color: inherit;
     }

@@ -582,10 +582,11 @@ h3,
 h4,
 h5,
 h6 {
+    color: #1d2c48;
     font-weight: 300;
     letter-spacing: -0.1rem;
     margin-bottom: 2rem;
-    margin-top: 0;
+    margin-top: 1rem;
 }
 
 h1 a,
@@ -596,13 +597,18 @@ h5 a,
 h6 a {
     color: #606c76;
 }
+a {
+    color: #606c76;
+}
 
 h1 {
+    font-weight: 600;
     font-size: 4.6rem;
     line-height: 1.2;
 }
 
 h2 {
+    font-weight: 700;
     font-size: 3.6rem;
     line-height: 1.25;
 }
@@ -789,46 +795,46 @@ body {
     /* font-size: 16px; */
 }
 
-.copy {
+.docs {
     line-height: 1.6em;
 }
 
-.copy p {
+.docs p {
     margin-bottom: 1.6rem;
 }
-.copy p:has(+ p) {
+.docs p:has(+ p) {
     /* margin-bottom: 0.8rem; */
 }
 
-.copy h1 {
+.docs h1 {
     font-size: calc(var(--font-size-h1) * 1rem);
     font-kerning: normal;
     margin-top: 4.8rem;
     margin-bottom: 1.6rem;
 }
-.copy h2 {
+.docs h2 {
     font-size: calc(var(--font-size-h2) * 1rem);
     font-kerning: normal;
     margin-top: 4.8rem;
     margin-bottom: 1.6rem;
 }
-.copy h3 {
+.docs h3 {
     font-size: calc(var(--font-size-h3) * 1rem);
     font-kerning: normal;
     margin-top: 8rem;
 }
-.copy h4 {
+.docs h4 {
     font-size: calc(var(--font-size-h4) * 1rem);
     margin-top: 4.8rem;
     line-height: 3.2rem;
     margin-bottom: 1.6rem;
 }
-.copy h5 {
+.docs h5 {
     font-size: calc(var(--font-size-h5) * 1rem);
     margin-top: 1.6rem;
     font-weight: bold;
 }
-.copy h6 {
+.docs h6 {
     font-size: calc(var(--font-size-h6) * 1rem);
     margin-top: 1.6rem;
     font-weight: bold;
@@ -836,4 +842,8 @@ body {
 
 .condensed li {
     margin-bottom: 0rem;
+}
+
+.docs :where(h1, h2, h3, h4, h5, h6) + :where(h1, h2, h3, h4, h5, h6) {
+    margin-top: 0 !important;
 }
