@@ -50,7 +50,7 @@
                     Embrace a routing solution that evolves with your needs and
                     complexities.
                 </h4>
-                <a href="#get-started" target="self">
+                <a href="#get-started" target="_self">
                     <button>Try the RC Now</button>
                 </a>
             </div>
@@ -152,6 +152,9 @@
             </div>
         </div>
     </section>
+
+    <!-- spacer -->
+    <section></section>
 
     <!-- Testimonials -->
     <!-- <section id="testimonials">
