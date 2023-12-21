@@ -582,7 +582,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #1d2c48;
+    /* color: #1d2c48; */
     font-weight: 300;
     letter-spacing: -0.1rem;
     margin-bottom: 2rem;

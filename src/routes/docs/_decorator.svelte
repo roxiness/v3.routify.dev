@@ -72,12 +72,13 @@
 
     .subject-header {
         text-transform: capitalize;
-        color: white;
+        /* color: white;
         background: #bd239b;
-        background: #800080;
-        background: -webkit-linear-gradient(to left, #ffc0cb, #800080);
-        background: linear-gradient(to left, #ffc0cb, #800080);
-        padding: 3rem 2rem 1rem;
+        background: #800080; */
+        /* background: -webkit-linear-gradient(to left, #ffc0cb, #800080);
+        background: linear-gradient(to left, #ffc0cb, #800080); */
+        /* padding: 3rem 2rem 1rem; */
+        text-decoration: underline;
         font-size: clamp(2.5rem, 4vw, 4rem);
         & a {
             color: white;
