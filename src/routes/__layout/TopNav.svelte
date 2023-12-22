@@ -1,14 +1,22 @@
 <script>
     import Links from './Links.svelte'
     import Icon from '#cmp/Icon.svelte'
+    import VersionSelector from '#cmp/VersionSelector.svelte'
+    VersionSelector
     let scrollY
 </script>
 
 <nav class:scrollY>
     <div class="container">
-        <a href="/">
-            <img alt="Routify" class="brand" src="/assets/routify3.svg" />
-        </a>
+        <div class="brand">
+            <a href="/">
+                <img alt="Routify" class="brand-image" src="/assets/routify3.svg" />
+            </a>
+            <div class="version">
+                <VersionSelector />
+            </div>
+        </div>
+
         <div />
         <div class="links">
             <Links />
@@ -49,13 +57,18 @@
     .brand {
         padding-left: 24px;
         height: 56px;
+        display: flex;
+    }
+    .brand-image {
+        height: 100%;
+        width: auto;
     }
     :global(.spacer) {
         width: var(--spacing-4);
     }
     .container {
         display: flex;
-        justify-content: space-between;         
+        justify-content: space-between;
         padding: 0;
     }
     .links {

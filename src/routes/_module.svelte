@@ -5,6 +5,7 @@
     import { Window, Sidenav, Backdrop } from 'polykit'
     import Nav from './docs/_sidenav.svelte'
     import Links from './__layout/Links.svelte'
+    import VersionSelector from '#cmp/VersionSelector.svelte'
 
     export let context
 
@@ -42,6 +43,7 @@
                     <a href="/">
                         <img alt="Routify" class="brand" src="/assets/routify3.svg" />
                     </a>
+                    <VersionSelector />
                     <div class="links">
                         <Links />
                         <hr />
