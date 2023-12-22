@@ -4,7 +4,7 @@
     export let node
     export let nested = 0
     const getName = node =>
-        (node.meta.name || node.name.replace(/-/g, ' ')) +
+        (node.meta.name || node.title.replace(/-/g, ' ')) +
         (node.meta.status ? ` [${node.meta.status}]` : '')
     const noExample = node => !node.name.match(/^example\.?/)
     const noIndex = node => node.name !== 'index'
