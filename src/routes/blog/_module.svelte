@@ -1,9 +1,15 @@
 <script>
-    import { isActive } from '@roxi/routify'
+    import { activeRoute } from '@roxi/routify'
     import Author from './__Author.svelte'
+    const date = date => {
+        const d = new Date(date)
+        return d.toLocaleString()
+    }
 </script>
 
 <div class="container copy blog">
+    <h1>{$activeRoute.leaf.node.meta._title}</h1>
+    <p class="author">Written by {$activeRoute.leaf.node.meta._author} {date($activeRoute.leaf.node.meta._date)}</p>
     <slot />
     <Author />
 </div>
@@ -11,8 +17,11 @@
 <style>
     .container {
         max-width: 800px;
-        
         padding-bottom: 8rem;
+    }
+
+    .author {
+        color: var(--color-grey-500);
     }
 
     * :global(.video-container) {
@@ -31,5 +40,4 @@
         /* color: var(--color-primary); */
         text-decoration: none;
     }
-
 </style>
