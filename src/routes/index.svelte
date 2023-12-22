@@ -147,7 +147,7 @@
             <div class="dialog">
                 <h2 class="section-title">Get Started</h2>
                 <p>Initialize your Routify 3 project with a single command:</p>
-                <pre><code>npm init routify@next</code></pre>
+                <pre><code>npm init routify@latest</code></pre>
                 <a href="/docs" class="cta-button">Read the Documentation</a>
             </div>
         </div>
