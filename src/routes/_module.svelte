@@ -43,7 +43,9 @@
                     <a href="/">
                         <img alt="Routify" class="brand" src="/assets/routify3.svg" />
                     </a>
-                    <VersionSelector />
+                    <div class="version-selector">
+                        <VersionSelector />
+                    </div>
                     <div class="links">
                         <Links />
                         <hr />
@@ -145,6 +147,10 @@
     */
     .mobile main {
         padding: var(--spacing-6) var(--spacing-4);
+    }
+
+    :global(.desktop) .version-selector {
+        display: none;
     }
 
     .mobile aside,
