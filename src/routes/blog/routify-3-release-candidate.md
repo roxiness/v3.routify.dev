@@ -1,4 +1,4 @@
-<!-- routify:meta _date="2023-12-06T12:23:37.814Z" -->
+<!-- routify:meta _date="2023-12-22T17:07:37.814Z" -->
 <!-- routify:meta _author="Jakob Rosenberg" -->
 <!-- routify:meta _author_description="Author of Routify" -->
 <!-- routify:meta _author_github="https://github.com/jakobrosenberg" -->
@@ -6,10 +6,10 @@
 <!-- routify:meta _author_img="/assets/collaborators/jakobrosenberg.jpg" -->
 <!-- routify:meta _description="It’s been a long time coming and the Routify 3 RC is finally here." -->
 
-# Routify 3: Unveiling the First Release Candidate
+<!-- routify:meta _title="Routify 3: Your Project, Your Rules" -->
 
-## Overview
-It's been a long time coming and the Routify 3 RC is finally here. Routify 3 is envisioned not just as a tool, but as a canvas that offers the freedom to craft navigational components to your specific needs. It introduces features such as multiple routers, internal memory routing, and lots of hooks, each designed to provide you with the means to customize and adapt as your projects require.
+It's been a long time coming and the Routify 3 RC is finally here. Routify 3 is envisioned not just as a tool, but as a canvas that offers the freedom to orchestrate components to your specific needs. It introduces features such as multiple routers, internal memory routing, and lots of hooks, each designed to provide you with the means to customize and adapt as your projects require.
+<br />
 
 ## Key Features of Routify 3
 
@@ -39,7 +39,7 @@ Routify 3's URL Management system stands out for its versatility, offering diffe
 - **localStorage**: Storing URLs in localStorage allows for preserving the user's navigation state across sessions, enhancing user experience in long-lived applications.
 
 #### `urlRewrites`: Beyond Standard Framework Limitations
-In Routify 3, `urlRewrite` empowers developers to go beyond hardcoded framework options, offering the freedom to create bespoke logic for critical features like i18n, hash-based navigation, and dynamic basepaths. This advanced flexibility facilitates tailored URL structuring, enabling custom, efficient routing solutions that adapt perfectly to the unique demands of your project.
+In Routify 3, `urlRewrite` empowers developers to go beyond hardcoded framework options, offering the freedom to create bespoke logic for critical features like i18n, hash-based navigation, and dynamic basepaths. This added flexibility facilitates custom URL structures that adapt perfectly to the unique demands of your project.
 
 <div class="media">
     <div class="video-container">
@@ -134,9 +134,16 @@ The release of the Routify 3 RC is just the beginning. We are excited to bring y
 - **Tips and Tricks:** Helpful tips and tricks to enhance your development process using Routify 3, making your work more efficient and enjoyable.
 Community Contributions: Spotlights on how the community is using and evolving Routify 3, showcasing innovative implementations and solutions.
 
+
+### Documentation and bug fixes
+We've come along way, but there's still stuff to do. If you come across a bug or notice missing documentation, please let us know, as we prioritize issues based on user feedback.
+
 ### Stay Tuned
 - **Subscribe and Follow:** Stay updated by following our social media channels.
 - **Join the Conversation:** Participate in our community forums or on GitHub to share your experiences, ask questions, and collaborate with other Routify 3 users.
 We are committed to making Routify 3 an ever-evolving tool, shaped by real-world use and community feedback. Keep an eye out for these updates and join us in exploring the full potential of Routify 3 in web development.
 
----
+
+## Thank You!
+
+As we launch this RC, we extend a big thank you to the community. Whether you were part of the journey or  you're about to try Routify for the first time, we wouldn't have made it this far without your interest and support. ❤️
