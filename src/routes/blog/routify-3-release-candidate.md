@@ -6,7 +6,7 @@
 <!-- routify:meta _author_img="/assets/collaborators/jakobrosenberg.jpg" -->
 <!-- routify:meta _description="It’s been a long time coming and the Routify 3 RC is finally here." -->
 
-<!-- routify:meta _title="Routify 3: Your Project, Your Rules" -->
+<!-- routify:meta title="Routify 3: Your Project, Your Rules" -->
 
 It's been a long time coming and the Routify 3 RC is finally here. Routify 3 is envisioned not just as a tool, but as a canvas that offers the freedom to orchestrate components to your specific needs. It introduces features such as multiple routers, internal memory routing, and lots of hooks, each designed to provide you with the means to customize and adapt as your projects require.
 <br />

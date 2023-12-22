@@ -8,7 +8,7 @@
 </script>
 
 <div class="container copy blog">
-    <h1>{$activeRoute.leaf.node.meta._title}</h1>
+    <h1>{$activeRoute.leaf.node.title}</h1>
     <p class="author">Written by {$activeRoute.leaf.node.meta._author} {date($activeRoute.leaf.node.meta._date)}</p>
     <slot />
     <Author />
