@@ -1,11 +1,20 @@
 <script>
     import Debugger from '@roxi/routify/lib/runtime/decorators/Debugger.svelte'
-    import Nav from './_sidenav.svelte'
-    import { Sidenav, Backdrop, screenSize } from 'polykit'
     import _decorator from './_decorator.svelte'
-    import Links from '../__layout/Links.svelte'
-    export let context
     import Disclaimer from './_disclaimer.svelte'
+    import {
+        RouteOnScroll,
+        getDescendantNodesElements,
+    } from '@roxi/routify/helpers/RouteOnScroll'
+
+
+    const scrollHandler = new RouteOnScroll({
+        direction: 'vertical',
+        threshold: window.innerHeight / 3,
+        getElems: getDescendantNodesElements,
+        strategy: 'lowestAboveThreshold'
+    })
+    $scrollHandler(document)
 
     // const decorator = import.meta.env.DEV ? [Debugger] : []
     const decorator = null
