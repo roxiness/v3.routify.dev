@@ -10,8 +10,15 @@
     // const decorator = import.meta.env.DEV ? [Debugger] : []
     const decorator = null
 
+    const getPreviousSibling = elem => {
+        const sibling = elem.previousElementSibling
+        if (sibling?.dataset.hasOwnProperty('routifyAnchorLocator'))
+            return getPreviousSibling(sibling)
+        return sibling
+    }
+
     const anchor = elem =>
-        elem.previousElementSibling || elem.parentElement.previousElementSibling
+        getPreviousSibling(elem) || getPreviousSibling(elem.parentElement)
 </script>
 
 <!-- routify:meta bundle -->
