@@ -19,7 +19,7 @@ Modules are created as `_module.svelte`.
 Props can be passed to child modules and pages with `props`:
 
 ```html
-<slot props={{myMsg: 'Hello World!'}}` />
+<slot props={{myMsg: "Hello World!"}} />
 ```
 
 ##### Consuming props
