@@ -15,7 +15,7 @@ For example, if we're hosting a site on a basepath like
     /** @type {UrlRewrite}*/
     const urlRewrite = {
         toExternal: url => '/my-app' + url,
-        toInternal: url => url.replace(/^\/my-app/, ''),
+        toInternal: url => url.replace(/^\\/my-app/, ''),
     }
 </script>
 
