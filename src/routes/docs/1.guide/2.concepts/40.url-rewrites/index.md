@@ -8,18 +8,20 @@ For example, if we're hosting a site on a basepath like
 `/my-app`, we could use the following URL rewrite.
 
 ```html
-<script>
-    import { Router } from '@roxi/routify'
+<script context="module">
+    import { Router, createRouter } from '@roxi/routify'
     import routes from '../.routify/routes.default.js'
 
-    /** @type {UrlRewrite}*/
-    const urlRewrite = {
-        toExternal: url => '/my-app' + url,
-        toInternal: url => url.replace(/^\\/my-app/, ''),
-    }
+    const router = createRouter({
+        routes,
+        urlRewrite: {
+           toExternal: url => '/my-app' + url,
+           toInternal: url => url.replace(/^\\/my-app/, ''),
+       }
+    })
 </script>
 
-<Router {routes} {urlRewrite} />
+<Router {router} />
 ```
 
 <br>
