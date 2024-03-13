@@ -23,7 +23,9 @@ export default defineConfig({
                 'darth|split',
                 'status',
             ],
-            ssr: { enable: !!production },
+            render: {                
+                ssr: { enable: !!production },
+            },
             devHelper: !production,
             // devHelper: !production,
             extensions: ['.svelte', '.html', '.md', '.svx', '.meta.js'],
@@ -38,6 +40,7 @@ export default defineConfig({
                         instance.nodeIndex.forEach(node => {
                             if(node.file.base.endsWith('meta.js')) {
                                 node.meta.noRoute = true
+                                node.meta.isDefault = false
                             }
                         })
                     },
