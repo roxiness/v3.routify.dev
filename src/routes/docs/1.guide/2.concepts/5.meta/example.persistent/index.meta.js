@@ -13,7 +13,7 @@ const shouldRefresh = false // ROUTIFY-REPLACE const shouldRefresh = process.env
 export default async ({ split, persist }) => {
     // fetch some movies
     const fetchMovies = async () => {
-        const response = await fetch('https://swapi.dev/api/films')
+        const response = await fetch('https://swapi.py4e.com/api/films')
         const data = await response.json()
         return data.results
     }
