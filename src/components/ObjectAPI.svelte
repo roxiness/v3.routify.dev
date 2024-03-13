@@ -34,7 +34,7 @@
                 <small>(default: <code>{props.default}</code>)</small>
             {/if}
             {#if props.text}
-                <p>{props.text}</p>
+                <p>{@html props.text}</p>
             {/if}
         </div>
     {/if}

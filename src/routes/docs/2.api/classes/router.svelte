@@ -88,6 +88,11 @@
             default: '',
             text: 'Configures which clicks the router listens to.',
         },
+        trailingSlash: {
+            type: 'never | always | preserve | contextual',
+            default: 'never',
+            text: 'Whether or not to add a trailing slash to the URL. <code>preserve</code> will keep the trailing slash if it was there, and <code>contextual</code> will add a trailing slash if the URL is a directory, e.g.: <strong>/example/index.svelte.</strong>',
+        }
     }
 
     /** @type { ApiObject }*/
