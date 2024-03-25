@@ -23,7 +23,8 @@ export default defineConfig({
                 'darth|split',
                 'status',
             ],
-            render: {                
+            render: {
+                ssg: { enable: !!production },
                 ssr: { enable: !!production },
             },
             devHelper: !production,
@@ -38,7 +39,7 @@ export default defineConfig({
                     build: ({ instance, tools }) => {
                         // .js files are not routes
                         instance.nodeIndex.forEach(node => {
-                            if(node.file.base.endsWith('meta.js')) {
+                            if (node.file.base.endsWith('meta.js')) {
                                 node.meta.noRoute = true
                                 node.meta.isDefault = false
                             }
@@ -51,7 +52,7 @@ export default defineConfig({
             emitCss: !production,
             compilerOptions: {
                 dev: !production,
-                hydratable: !!process.env.ROUTIFY_SSR_ENABLE
+                hydratable: !!process.env.ROUTIFY_SSR_ENABLE,
             },
             extensions: ['.md', '.svelte'],
             preprocess: [mdsvex({ extension: 'md' })],
