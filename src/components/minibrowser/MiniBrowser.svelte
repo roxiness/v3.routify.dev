@@ -19,6 +19,9 @@
     .router {
         position: relative;
     }
+    .router :global(a){
+        text-decoration: underline;
+    }
     .example {
         box-shadow: var(--elevation-1);
         padding: 48px 64px 32px 64px;
