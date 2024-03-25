@@ -15,4 +15,5 @@
     input {
         background: white;
     }
+    form, input {margin: 0}
 </style>
