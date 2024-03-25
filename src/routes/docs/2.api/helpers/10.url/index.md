@@ -5,7 +5,7 @@
     import FunctionAPI from '#cmp/FunctionAPI.svelte'
 
     const params = {
-        path: { type: 'string', text: 'The internal path to the URL, eg.: /blog/[slug]/comments' },
+        path: { type: 'string | \'$leaf\'', text: 'The internal path to the node, eg.: /blog/[slug]/comments. Use \'$leaf\' to get the URL for the current leaf node.' },
         params: { type: 'object', text: 'The parameters to be used in the URL. Parameters not used in the path will be appended to the url as a query string.' },        
     }
 </script>
