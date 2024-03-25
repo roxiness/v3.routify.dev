@@ -9,11 +9,10 @@
 </script>
 
 <div class="example" data-routify-scroll="lock">
-    <Bar {router}>
-        <div class="router">
-            <Router {name} {rootNode} {url} {urlReflector} bind:router />
-        </div>
-    </Bar>
+    <Bar {router} />    
+    <div class="router">
+        <Router {name} {rootNode} {url} {urlReflector} bind:router />
+    </div>
 </div>
 
 <style>

@@ -13,7 +13,6 @@
         <Options {router} />
     </div>
 {/if}
-<slot />
 
 <style>
     .bar {
