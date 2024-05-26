@@ -10,6 +10,8 @@
     let isOverflowingBottom = false
 
     const checkOverflow = () => {
+        if(!wrapperElement) return
+
         // Checking horizontal overflow
         isOverflowingLeft = wrapperElement.scrollLeft > 0
         isOverflowingRight =
@@ -30,11 +32,13 @@
 
     onMount(() => {
         wrapperElement.addEventListener('scroll', handleScroll)
-        checkOverflow() // Initial check
+        window.addEventListener('resize', handleScroll)
+        handleScroll() // Initial check
     })
 
     onDestroy(() => {
         wrapperElement.removeEventListener('scroll', handleScroll)
+        window.addEventListener('resize', handleScroll)
     })
 </script>
 
