@@ -7,14 +7,14 @@
         getDescendantNodesElements,
     } from '@roxi/routify/helpers/RouteOnScroll'
 
-
     const scrollHandler = new RouteOnScroll({
         direction: 'vertical',
-        threshold: window.innerHeight / 3,
+        threshold: (globalThis.window?.innerHeight || 1) / 3,
         getElems: getDescendantNodesElements,
-        strategy: 'lowestAboveThreshold'
+        strategy: 'lowestAboveThreshold',
     })
-    $scrollHandler(document)
+    if (globalThis.document)
+     $scrollHandler(document)
 
     // const decorator = import.meta.env.DEV ? [Debugger] : []
     const decorator = null
