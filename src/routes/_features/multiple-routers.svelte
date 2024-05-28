@@ -2,7 +2,7 @@
 <!-- routify:meta isDefault -->
 
 <script>
-    import ScrollDetectBox from './__components/ScrollDetectBox.svelte'
+    import ScrollShadow from './__components/ScrollShadow.svelte'
 </script>
 
 <h3 class="title">Multiple Routers</h3>
@@ -17,17 +17,19 @@
             allowfullscreen />
     </div>
 </div>
-<ScrollDetectBox className="copy">
-    <p>
-        Implement multiple routers within a single application for enhanced navigation
-        control.
-    </p>
-    <p>
-        Each router can have its own configuration, such as urlRewrite, plugins, and
-        hooks.
-    </p>
-    <p>
-        By default, routers that are on their default route, such as /index, remain hidden
-        from the address bar.
-    </p>
-</ScrollDetectBox>
+<div class="copy">
+    <ScrollShadow>
+        <p>
+            Implement multiple routers within a single application for enhanced navigation
+            control.
+        </p>
+        <p>
+            Each router can have its own configuration, such as urlRewrite, plugins, and
+            hooks.
+        </p>
+        <p>
+            By default, routers that are on their default route, such as /index, remain
+            hidden from the address bar.
+        </p>
+    </ScrollShadow>
+</div>

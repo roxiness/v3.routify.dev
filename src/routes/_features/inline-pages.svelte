@@ -1,7 +1,7 @@
 <!-- routify:meta order=3 -->
 
 <script>
-    import ScrollDetectBox from './__components/ScrollDetectBox.svelte'
+    import ScrollShadow from './__components/ScrollShadow.svelte'
 </script>
 
 <h3 class="title">Inline Pages</h3>
@@ -16,14 +16,16 @@
             allowfullscreen />
     </div>
 </div>
-<ScrollDetectBox className="copy">
-    <p>
-        When an active page is <code>inlined</code>, Routify will also show the sibling
-        pages that are inlined.
-    </p>
-    <p>
-        Any page or module can be inlined by setting <code>meta.inline</code> to true. When
-        navigating between inlined pages, the page will scroll to the new page. This is useful
-        for landing pages, tabbed sections, wizards, etc.
-    </p>
-</ScrollDetectBox>
+<div class="copy">
+    <ScrollShadow>
+        <p>
+            When an active page is <code>inlined</code>, Routify will also show the
+            sibling pages that are inlined.
+        </p>
+        <p>
+            Any page or module can be inlined by setting <code>meta.inline</code> to true.
+            When navigating between inlined pages, the page will scroll to the new page. This
+            is useful for landing pages, tabbed sections, wizards, etc.
+        </p>
+    </ScrollShadow>
+</div>

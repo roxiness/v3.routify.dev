@@ -1,0 +1,72 @@
+.routify-feature-box {
+    .feature {
+        display: grid;
+        flex: 0 0 auto;
+        width: 100%;
+        position: relative;
+
+        grid-template-rows: auto auto 1fr;
+        grid-template-areas:
+            'media'
+            'title'
+            'copy';
+
+        :where(.desktop) & {
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: auto 1fr;
+            grid-template-areas:
+                'title media'
+                'copy media';
+            gap: 16px;
+        }
+
+        /* video */
+        .video-container {
+            position: relative;
+            padding-bottom: 63%;
+            border-radius: 12px;
+            overflow: hidden;
+            > * {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .title {
+            grid-area: title;
+            font-weight: bold;
+            margin-bottom: 8px;
+            margin-top: 32px;
+            :where(.mobile, .tablet) & {
+                margin: 24px 0 8px 0;
+                font-size: 18px;
+                font-weight: 900;
+                letter-spacing: 0.02em;
+            }
+        }
+
+        .media {
+            grid-area: media;
+        }
+        .copy {
+            grid-area: copy;
+            height: 100%;
+            /* overflow-y: auto; */
+            box-sizing: border-box;
+            :last-child {
+                margin-bottom: 0;
+            }
+            :where(.desktop) & {
+                inset: 0;
+                position: absolute;
+            }
+            :where(.mobile, .tablet) & {
+                height: 210px;
+                position: relative;
+            }
+        }
+
+
+    }
+}
