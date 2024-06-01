@@ -96,14 +96,9 @@
 
     .container.nav {
         overflow-y: auto;
+        overflow-x: hidden;
         padding-top: 72px;
         height: 100%;
-    }
-
-    .mobile .container.nav,
-    .tablet .container.nav {
-        padding-left: 24px;
-        padding-right: 24px;
     }
 
     main {
@@ -113,8 +108,11 @@
     aside {
         position: fixed;
         width: inherit;
-        height: 100vh;
+        height: calc(100vh - 96px);
         background: white;
+    }
+    :global(.mobile) aside, :global(.tablet) aside {
+        height: 100vh;
     }
     .desktop aside {
         background: #fdf6fe;
