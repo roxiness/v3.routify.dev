@@ -1,5 +1,5 @@
 <script>
-    import Carousel from '@roxi/routify/Carousel'
+    import Carousel from '@roxi/routify/components/Carousel.svelte'
     import Nav from './__components/Nav.svelte'
     import './features.css'
 </script>
