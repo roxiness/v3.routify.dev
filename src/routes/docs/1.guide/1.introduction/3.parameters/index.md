@@ -28,3 +28,18 @@ Sometimes parameters are variadic and can take multiple arguments. For this we c
 
 
 <Example path="../example.2" title="Spread operator example" />
+
+
+**Note:** in Routify the most specific node always takes precedence. That means that when you visit `/blog/hello-world`, Routify will look for nodes in the following order.
+
+
+```
+1. /blog.svelte
+2. /[dynamic].svelte
+3. /[...spread].svelte
+4. /blog/hello-world.svelte
+5. /blog/[dynamic].svelte
+6. /blog/[...spread].svelte
+```
+
+If Routify reaches a dead end while resolving a route, it will backtrace to the nearest node with a spread parameters such as `[...404].svelte`. This lets you create module specific 404 pages.
