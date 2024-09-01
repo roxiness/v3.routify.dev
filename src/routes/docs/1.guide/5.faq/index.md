@@ -9,3 +9,25 @@ urlRewrite: {
 
 #### How do I host on Github Pages
 See *Can I use hashbased navigation*
+
+#### Can I enable verbose logging
+Yes, to enable verbose logging in Routify, open your browser console and enter `__routify.log.level = 4`
+
+**Note**: Make sure that your browser doesn't filter verbose logging.
+<details>
+<summary>Example
+</summary>
+<img src="/assets/console-logging.webp" />
+</details>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
