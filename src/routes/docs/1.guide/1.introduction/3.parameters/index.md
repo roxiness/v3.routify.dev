@@ -30,7 +30,17 @@ Sometimes parameters are variadic and can take multiple arguments. For this we c
 <Example path="../example.2" title="Spread operator example" />
 
 
-**Note:** in Routify the most specific node always takes precedence. That means that when you visit `/blog/hello-world`, Routify will look for nodes in the following order.
+#### Reloading the page on parameter updates
+
+Routify pages are reactive and reflect parameter changes in realtime. If for some reason you need to force reload a page when a parameter changes, you can use the meta option `param-is-page`.
+
+```
+<!-- routify:meta param-is-page -->
+```
+
+#### Module Precedence
+
+In Routify the most specific node always takes precedence. That means that when you visit `/blog/hello-world`, Routify will look for nodes in the following order.
 
 
 ```
