@@ -1,6 +1,7 @@
 <script>
     import img from '../components/assets/Ilustration_V2_3d_design_modern_pink_1.jpg'
     import { InternalReflector, Router, node } from '@roxi/routify'
+    import Footer from './__layout/Footer.svelte'
 
     const data = {
         features: [
@@ -164,6 +165,7 @@
     <!-- <section id="faq">
     </section> -->
 </div>
+<Footer />
 
 <style>
     /*

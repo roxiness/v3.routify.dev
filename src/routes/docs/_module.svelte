@@ -1,5 +1,5 @@
 <script>
-    import Debugger from '@roxi/routify/lib/runtime/decorators/Debugger.svelte'
+    import Footer from '../__layout/Footer.svelte'
     import _decorator from './_decorator.svelte'
     import Disclaimer from './_disclaimer.svelte'
     import {
@@ -38,6 +38,10 @@
         <slot inline {decorator} {anchor} />
     </main>
 </div>
+<br />
+<br />
+<br />
+<Footer />
 
 <style>
     .docs {

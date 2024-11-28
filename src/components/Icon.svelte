@@ -11,8 +11,4 @@
     span {
         line-height: 0;
     }
-    span :global(svg) {
-        /* stroke-width: 2px; */
-        /* stroke: #636c75; */
-    }
 </style>

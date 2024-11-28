@@ -1,6 +1,5 @@
 <script>
     import Links from './Links.svelte'
-    import Icon from '#cmp/Icon.svelte'
     import VersionSelector from '#cmp/VersionSelector.svelte'
     VersionSelector
     let scrollY
