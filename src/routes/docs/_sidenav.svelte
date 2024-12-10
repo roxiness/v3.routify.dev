@@ -9,13 +9,17 @@
     const noExample = node => !node.name.match(/^example\.?/)
     const noIndex = node => node.name !== 'index'
     const noInternal = node => node.name !== 'internal'
+    const children = node =>
+        node.linkableChildren.filter(
+            node => noExample(node) && noInternal(node) && noIndex(node),
+        )
 </script>
 
 <ul class="nested-{nested}">
-    {#each node.linkableChildren.filter(noExample).filter(noInternal).filter(noIndex) as child}
-        <li class:active={$isActive(child.path, {}, {recursive: true})}>
+    {#each children(node) as child}
+        <li class:active={$isActive(child.path, {}, { recursive: true })}>
             <a href={child.path}>{getName(child)}</a>
-            {#if !nested || (child.linkableChildren.filter(noExample).length && $isActive(child.path, {}, {recursive: true}))}
+            {#if !nested || (children(child).length && $isActive(child.path, {}, { recursive: true }))}
                 <div class="children" transition:slide|local>
                     <svelte:self node={child} nested={nested + 1} />
                 </div>
