@@ -21,4 +21,4 @@ Yes, to enable verbose logging in Routify, open your browser console and enter `
 </details>
 
 #### How do I get rid of wrapper elements
-You can disable the creation of wrapper elements by setting the `anchor` option to `parent`, `header` or `header`. For more information see [Scroll Anchors](/docs/guide/advanced/scroll-anchors).
+You can disable the creation of wrapper elements by setting the `anchor` option to `parent`, `firstChild` or `header`. For more information see [Scroll Anchors](/docs/guide/advanced/scroll-anchors).
