@@ -6,10 +6,10 @@ Set a Scroll Anchor for a component or slot using the `anchor` attribute. You ca
 
 ##### Predefined Anchors
 Choose from these built-in strategies:
-- `wrapper` – Wraps the component's element.
-- `parent` – Uses the parent element.
-- `header` – Inserts an anchor element before the component.
-- `firstChild` – Uses the component's first child.
+- `wrapper` – Wraps the node in an anchor element.
+- `parent` – Uses the parent element as anchor.
+- `header` – Inserts an anchor element before the node.
+- `firstChild` – Uses the node's first child as anchor.
 
 **Example:**
 ```svelte
