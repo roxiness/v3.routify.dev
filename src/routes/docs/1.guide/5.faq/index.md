@@ -19,15 +19,3 @@ Yes, to enable verbose logging in Routify, open your browser console and enter `
 </summary>
 <img src="/assets/console-logging.webp" />
 </details>
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>

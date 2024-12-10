@@ -55,6 +55,9 @@
         font-size: clamp(8rem, 18vw, 20rem);
         border-bottom: 16px solid #606c76;
     }
+    .section-hero:not(:first-of-type) {
+        margin-top: 40rem;
+    }
     :global(.mobile .section-hero) {
         margin: 0 -2rem;
         padding: 0 2rem;
