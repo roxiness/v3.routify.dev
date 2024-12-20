@@ -1,7 +1,7 @@
 import { derived, writable } from 'svelte/store'
 
 export const checkOverflow = element => {
-    console.log('check it', element)
+    // console.log('check it', element)
     return {
         top: element.scrollTop > 0,
         bottom: element.scrollHeight - 1 > element.clientHeight + element.scrollTop,
@@ -20,10 +20,10 @@ export const watchOverflow = (element, callback) => {
     const check = () => callback(checkOverflow(element))
     element.addEventListener('scroll', check)
     window.addEventListener('resize', check)
-    console.log('watch', element)
+    // console.log('watch', element)
     check()
     return () => {
-        console.log('unsubbing')
+        // console.log('unsubbing')
         element.removeEventListener('scroll', check)
         window.removeEventListener('resize', check)
     }
