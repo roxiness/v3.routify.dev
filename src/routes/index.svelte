@@ -1,5 +1,5 @@
 <script>
-    import img from '../components/assets/Ilustration_V2_3d_design_modern_pink_1.jpg'
+    import img from '../components/assets/Ilustration_V2_3d_design_modern_pink_1-9006c8d9.avif'
     import { InternalReflector, Router, node } from '@roxi/routify'
     import Footer from './__layout/Footer.svelte'
 
