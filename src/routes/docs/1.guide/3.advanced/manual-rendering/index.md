@@ -12,6 +12,6 @@ Manually rendering a node can be done by using `node.component` in a a `<svelte:
 Sometimes you may want to render a specific node. This can be done by iterating over a node's children.
 <Example path="../example" title="Rendering nodes manually "/>
 
-#### Rendering recursively
+<!-- #### Rendering recursively
 If some of the inlined nodes are nested in folders, you can render these and their modules. 
-<Example path="../example.nested" title="Recursively render nodes manually"/>
+<Example path="../example.nested" title="Recursively render nodes manually"/> -->
