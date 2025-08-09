@@ -52,7 +52,7 @@
                     complexities.
                 </h4>
                 <a href="#get-started" target="_self">
-                    <button>Try the RC Now</button>
+                    <button>Try it Now</button>
                 </a>
             </div>
         </div>

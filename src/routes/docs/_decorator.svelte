@@ -83,9 +83,9 @@
         /* padding: 3rem 2rem 1rem; */
         text-decoration: underline;
         font-size: clamp(2.5rem, 4vw, 4rem);
-        & a {
+        /* & a {
             color: white;
-        }
+        } */
     }
     :global(.mobile .subject-header, .mobile .category-header) {
         margin-inline: -2rem;

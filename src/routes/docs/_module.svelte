@@ -1,7 +1,7 @@
 <script>
     import Footer from '../__layout/Footer.svelte'
     import _decorator from './_decorator.svelte'
-    import Disclaimer from './_disclaimer.svelte'
+    // import Disclaimer from './_disclaimer.svelte'
     import {
         RouteOnScroll,
         getDescendantNodesElements,
@@ -34,7 +34,7 @@
 
 <div class="container main">
     <main class="docs">
-        <Disclaimer />
+        <!-- <Disclaimer /> -->
         <slot inline {decorator} {anchor} />
     </main>
 </div>
