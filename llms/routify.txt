@@ -1,0 +1,1797 @@
+================
+CODE SNIPPETS
+================
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/introduction
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/migration-guide
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/installation
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/introduction/navigation
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/concepts/preloading
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/concepts
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/introduction/modules
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/concepts/meta
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/api
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/concepts/nodes
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/concepts/404s
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/concepts/bundling
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/advanced/nodes
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/api/components
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/advanced/dynamic-modules
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/api/metadata
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/advanced/themes
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/api/classes
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/api/helpers/url
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/api/classes/router
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/api/helpers/pendingRoute
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/guide/advanced/scroll-anchors
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Install Routify via npm (CLI)
+DESCRIPTION: Installs the Routify CLI tool to quickly set up a new project with Routify 3. This is the recommended method for starting a new project.
+
+SOURCE: https://routify.dev/docs/api/node-traversal
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/installation/starter-repo
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/api/helpers/goto
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/installation/manual-installation
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/advanced/manual-rendering
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/api/helpers
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/introduction/parameters
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/api/classes/instance
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/api/themes
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/advanced/how-it-works
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide/installation
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/api/helpers/isActive
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/faq
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/advanced
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/index
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide/introduction
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/advanced/multiple-routers
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide/concepts/preloading
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/api/plugins
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies node names and meta indices during the build process.
+
+SOURCE: https://routify.dev/docs/guide/installation
+
+LANGUAGE: javascript
+CODE:
+```
+export default options => ({
+    name: 'indexByName',
+    before: 'exporter',
+    build: ({ instance }) => {
+        instance.nodeIndex.forEach(node => {
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/introduction/structure
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide/concepts
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies node names and meta indices during the build process.
+
+SOURCE: https://routify.dev/docs/guide/concepts/preloading
+
+LANGUAGE: javascript
+CODE:
+```
+export default options => ({
+    name: 'indexByName',
+    before: 'exporter',
+    build: ({ instance }) => {
+        instance.nodeIndex.forEach(node => {
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/api/classes/node
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies node names and meta indices during the build process.
+
+SOURCE: https://routify.dev/docs/guide/migration-guide
+
+LANGUAGE: javascript
+CODE:
+```
+export default options => ({
+    name: 'indexByName',
+    before: 'exporter',
+    build: ({ instance }) => {
+        instance.nodeIndex.forEach(node => {
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/advanced/render-modes
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide/introduction/navigation
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Routify Theme Setup Configuration
+DESCRIPTION: Illustrates the configuration object for Routify's theming system, defining presets for various language and seasonal contexts, including fallback mechanisms and compound themes.
+
+SOURCE: https://routify.dev/docs/guide/introduction/navigation
+
+LANGUAGE: javascript
+CODE:
+```
+{
+    themes: {
+        presets: {
+            en: ['en'],
+            en_gb: ['en-gb', 'en'], // fallback to US English
+            de: ['de', 'en'],            
+            en_xmas: [['en', 'xmas'], 'en'], // compound theme
+            // Prefer US English Xmas over localized English without Xmas
+            en_gb_xmas: [['en-gb', 'xmas'], ['en', 'xmas'], 'en-gb', 'en'],
+            // Always prefer German
+            de_xmas: [['de', 'xmas'], 'de', 'en']
+        }
+    }
+}
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide/migration-guide
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/api/helpers/isActiveFragment
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/api
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Routify Theme Setup Configuration
+DESCRIPTION: Illustrates the configuration object for Routify's theming system, defining presets for various language and seasonal contexts, including fallback mechanisms and compound themes.
+
+SOURCE: https://routify.dev/docs/guide
+
+LANGUAGE: javascript
+CODE:
+```
+{
+    themes: {
+        presets: {
+            en: ['en'],
+            en_gb: ['en-gb', 'en'], // fallback to US English
+            de: ['de', 'en'],            
+            en_xmas: [['en', 'xmas'], 'en'], // compound theme
+            // Prefer US English Xmas over localized English without Xmas
+            en_gb_xmas: [['en-gb', 'xmas'], ['en', 'xmas'], 'en-gb', 'en'],
+            // Always prefer German
+            de_xmas: [['de', 'xmas'], 'de', 'en']
+        }
+    }
+}
+```
+
+--------------------------------
+
+TITLE: Routify Theme Setup Configuration
+DESCRIPTION: Illustrates the configuration object for Routify's theming system, defining presets for various language and seasonal contexts, including fallback mechanisms and compound themes.
+
+SOURCE: https://routify.dev/docs/api/helpers/url
+
+LANGUAGE: javascript
+CODE:
+```
+{
+    themes: {
+        presets: {
+            en: ['en'],
+            en_gb: ['en-gb', 'en'], // fallback to US English
+            de: ['de', 'en'],            
+            en_xmas: [['en', 'xmas'], 'en'], // compound theme
+            // Prefer US English Xmas over localized English without Xmas
+            en_gb_xmas: [['en-gb', 'xmas'], ['en', 'xmas'], 'en-gb', 'en'],
+            // Always prefer German
+            de_xmas: [['de', 'xmas'], 'de', 'en']
+        }
+    }
+}
+```
+
+--------------------------------
+
+TITLE: Routify Theme Setup Configuration
+DESCRIPTION: Illustrates the configuration object for Routify's theming system, defining presets for various language and seasonal contexts, including fallback mechanisms and compound themes.
+
+SOURCE: https://routify.dev/docs/guide/introduction
+
+LANGUAGE: javascript
+CODE:
+```
+{
+    themes: {
+        presets: {
+            en: ['en'],
+            en_gb: ['en-gb', 'en'], // fallback to US English
+            de: ['de', 'en'],            
+            en_xmas: [['en', 'xmas'], 'en'], // compound theme
+            // Prefer US English Xmas over localized English without Xmas
+            en_gb_xmas: [['en-gb', 'xmas'], ['en', 'xmas'], 'en-gb', 'en'],
+            // Always prefer German
+            de_xmas: [['de', 'xmas'], 'de', 'en']
+        }
+    }
+}
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/api/metadata
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/concepts/inlined-pages
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/api/components
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Routify Theme Setup Configuration
+DESCRIPTION: Illustrates the configuration object for Routify's theming system, defining presets for various language and seasonal contexts, including fallback mechanisms and compound themes.
+
+SOURCE: https://routify.dev/docs/guide/concepts/bundling
+
+LANGUAGE: javascript
+CODE:
+```
+{
+    themes: {
+        presets: {
+            en: ['en'],
+            en_gb: ['en-gb', 'en'], // fallback to US English
+            de: ['de', 'en'],            
+            en_xmas: [['en', 'xmas'], 'en'], // compound theme
+            // Prefer US English Xmas over localized English without Xmas
+            en_gb_xmas: [['en-gb', 'xmas'], ['en', 'xmas'], 'en-gb', 'en'],
+            // Always prefer German
+            de_xmas: [['de', 'xmas'], 'de', 'en']
+        }
+    }
+}
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/api/classes
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies the `node.name` and adds a `node.meta.index` property during the build process.
+
+SOURCE: https://routify.dev/docs/guide
+
+LANGUAGE: javascript
+CODE:
+```
+// this plugin sorts routes by the index prefixed to their names
+// eg. 1.guide.svelte, 2.api.svelte
+export default options => ({
+    name: 'indexByName',
+    
+    // we want to run our plugin before we write our routes to disk
+    before: 'exporter', 
+    
+    
+    build: ({ instance }) => {
+
+        // iterate over all nodes
+        instance.nodeIndex.forEach(node => {
+
+            // if our node name matches 123.foo
+            // set the name to foo and the meta index to 123
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Routify Theme Setup Configuration
+DESCRIPTION: Illustrates the configuration object for Routify's theming system, defining presets for various language and seasonal contexts, including fallback mechanisms and compound themes.
+
+SOURCE: https://routify.dev/docs/guide/concepts/meta
+
+LANGUAGE: javascript
+CODE:
+```
+{
+    themes: {
+        presets: {
+            en: ['en'],
+            en_gb: ['en-gb', 'en'], // fallback to US English
+            de: ['de', 'en'],            
+            en_xmas: [['en', 'xmas'], 'en'], // compound theme
+            // Prefer US English Xmas over localized English without Xmas
+            en_gb_xmas: [['en-gb', 'xmas'], ['en', 'xmas'], 'en-gb', 'en'],
+            // Always prefer German
+            de_xmas: [['de', 'xmas'], 'de', 'en']
+        }
+    }
+}
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies node names and meta indices during the build process.
+
+SOURCE: https://routify.dev/docs/guide/concepts
+
+LANGUAGE: javascript
+CODE:
+```
+export default options => ({
+    name: 'indexByName',
+    before: 'exporter',
+    build: ({ instance }) => {
+        instance.nodeIndex.forEach(node => {
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/api/classes/route
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide/advanced/themes
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide/introduction/modules
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide/concepts/bundling
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Install Routify Package (Manual)
+DESCRIPTION: Manually installs the Routify package for existing projects using npm. This allows integration into projects not set up via the CLI.
+
+SOURCE: https://routify.dev/docs/guide/concepts/preloading
+
+LANGUAGE: bash
+CODE:
+```
+npm install @roxi/routify@next
+```
+
+--------------------------------
+
+TITLE: Install Routify Package (Manual)
+DESCRIPTION: Manually installs the Routify package for existing projects using npm. This allows integration into projects not set up via the CLI.
+
+SOURCE: https://routify.dev/docs/guide/migration-guide
+
+LANGUAGE: bash
+CODE:
+```
+npm install @roxi/routify@next
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies the `node.name` and adds a `node.meta.index` property during the build process.
+
+SOURCE: https://routify.dev/docs/guide/introduction
+
+LANGUAGE: javascript
+CODE:
+```
+// this plugin sorts routes by the index prefixed to their names
+// eg. 1.guide.svelte, 2.api.svelte
+export default options => ({
+    name: 'indexByName',
+    
+    // we want to run our plugin before we write our routes to disk
+    before: 'exporter', 
+    
+    
+    build: ({ instance }) => {
+
+        // iterate over all nodes
+        instance.nodeIndex.forEach(node => {
+
+            // if our node name matches 123.foo
+            // set the name to foo and the meta index to 123
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide/advanced/dynamic-modules
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies the `node.name` and adds a `node.meta.index` property during the build process.
+
+SOURCE: https://routify.dev/docs/guide/introduction/navigation
+
+LANGUAGE: javascript
+CODE:
+```
+// this plugin sorts routes by the index prefixed to their names
+// eg. 1.guide.svelte, 2.api.svelte
+export default options => ({
+    name: 'indexByName',
+    
+    // we want to run our plugin before we write our routes to disk
+    before: 'exporter', 
+    
+    
+    build: ({ instance }) => {
+
+        // iterate over all nodes
+        instance.nodeIndex.forEach(node => {
+
+            // if our node name matches 123.foo
+            // set the name to foo and the meta index to 123
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/concepts/hooks
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies node names and meta indices during the build process.
+
+SOURCE: https://routify.dev/docs/guide/introduction/modules
+
+LANGUAGE: javascript
+CODE:
+```
+export default options => ({
+    name: 'indexByName',
+    before: 'exporter',
+    build: ({ instance }) => {
+        instance.nodeIndex.forEach(node => {
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide/concepts/404s
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/advanced/decorators
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Routify URL Helper Import
+DESCRIPTION: This example demonstrates how to import the '$url' helper from the '@roxi/routify' package, which is used for URL manipulation within Routify applications.
+
+SOURCE: https://routify.dev/docs/guide/concepts/nodes
+
+LANGUAGE: javascript
+CODE:
+```
+// example
+import { $url } from '@roxi/routify'
+```
+
+--------------------------------
+
+TITLE: Routify Theme Setup Configuration
+DESCRIPTION: Illustrates the configuration object for Routify's theming system, defining presets for various language and seasonal contexts, including fallback mechanisms and compound themes.
+
+SOURCE: https://routify.dev/docs/api/components
+
+LANGUAGE: javascript
+CODE:
+```
+{
+    themes: {
+        presets: {
+            en: ['en'],
+            en_gb: ['en-gb', 'en'], // fallback to US English
+            de: ['de', 'en'],            
+            en_xmas: [['en', 'xmas'], 'en'], // compound theme
+            // Prefer US English Xmas over localized English without Xmas
+            en_gb_xmas: [['en-gb', 'xmas'], ['en', 'xmas'], 'en-gb', 'en'],
+            // Always prefer German
+            de_xmas: [['de', 'xmas'], 'de', 'en']
+        }
+    }
+}
+```
+
+--------------------------------
+
+TITLE: Create a new Routify project with CLI
+DESCRIPTION: Initializes a new Routify project using the official CLI tool. This is the recommended method for a quick and customizable setup.
+
+SOURCE: https://routify.dev/docs/guide/advanced/url-reflectors
+
+LANGUAGE: bash
+CODE:
+```
+npm init routify@latest
+```
+
+--------------------------------
+
+TITLE: Routify Theme Setup Configuration
+DESCRIPTION: Illustrates the configuration object for Routify's theming system, defining presets for various language and seasonal contexts, including fallback mechanisms and compound themes.
+
+SOURCE: https://routify.dev/docs/guide/concepts/nodes
+
+LANGUAGE: javascript
+CODE:
+```
+{
+    themes: {
+        presets: {
+            en: ['en'],
+            en_gb: ['en-gb', 'en'], // fallback to US English
+            de: ['de', 'en'],            
+            en_xmas: [['en', 'xmas'], 'en'], // compound theme
+            // Prefer US English Xmas over localized English without Xmas
+            en_gb_xmas: [['en-gb', 'xmas'], ['en', 'xmas'], 'en-gb', 'en'],
+            // Always prefer German
+            de_xmas: [['de', 'xmas'], 'de', 'en']
+        }
+    }
+}
+```
+
+--------------------------------
+
+TITLE: Install Routify Package (Manual)
+DESCRIPTION: Manually installs the Routify package for existing projects using npm. This allows integration into projects not set up via the CLI.
+
+SOURCE: https://routify.dev/docs/api/metadata
+
+LANGUAGE: bash
+CODE:
+```
+npm install @roxi/routify@next
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies the `node.name` and adds a `node.meta.index` property during the build process.
+
+SOURCE: https://routify.dev/docs/guide/concepts/bundling
+
+LANGUAGE: javascript
+CODE:
+```
+// this plugin sorts routes by the index prefixed to their names
+// eg. 1.guide.svelte, 2.api.svelte
+export default options => ({
+    name: 'indexByName',
+    
+    // we want to run our plugin before we write our routes to disk
+    before: 'exporter', 
+    
+    
+    build: ({ instance }) => {
+
+        // iterate over all nodes
+        instance.nodeIndex.forEach(node => {
+
+            // if our node name matches 123.foo
+            // set the name to foo and the meta index to 123
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Install Routify Package (Manual)
+DESCRIPTION: Manually installs the Routify package for existing projects using npm. This allows integration into projects not set up via the CLI.
+
+SOURCE: https://routify.dev/docs/guide
+
+LANGUAGE: bash
+CODE:
+```
+npm install @roxi/routify@next
+```
+
+--------------------------------
+
+TITLE: Install Routify Package (Manual)
+DESCRIPTION: Manually installs the Routify package for existing projects using npm. This allows integration into projects not set up via the CLI.
+
+SOURCE: https://routify.dev/docs/api
+
+LANGUAGE: bash
+CODE:
+```
+npm install @roxi/routify@next
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies node names and meta indices during the build process.
+
+SOURCE: https://routify.dev/docs/guide/concepts/meta
+
+LANGUAGE: javascript
+CODE:
+```
+export default options => ({
+    name: 'indexByName',
+    before: 'exporter',
+    build: ({ instance }) => {
+        instance.nodeIndex.forEach(node => {
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Routify Theme Setup Configuration
+DESCRIPTION: Illustrates the configuration object for Routify's theming system, defining presets for various language and seasonal contexts, including fallback mechanisms and compound themes.
+
+SOURCE: https://routify.dev/docs/api/classes/router
+
+LANGUAGE: javascript
+CODE:
+```
+{
+    themes: {
+        presets: {
+            en: ['en'],
+            en_gb: ['en-gb', 'en'], // fallback to US English
+            de: ['de', 'en'],            
+            en_xmas: [['en', 'xmas'], 'en'], // compound theme
+            // Prefer US English Xmas over localized English without Xmas
+            en_gb_xmas: [['en-gb', 'xmas'], ['en', 'xmas'], 'en-gb', 'en'],
+            // Always prefer German
+            de_xmas: [['de', 'xmas'], 'de', 'en']
+        }
+    }
+}
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies the `node.name` and adds a `node.meta.index` property during the build process.
+
+SOURCE: https://routify.dev/docs/guide/concepts/404s
+
+LANGUAGE: javascript
+CODE:
+```
+// this plugin sorts routes by the index prefixed to their names
+// eg. 1.guide.svelte, 2.api.svelte
+export default options => ({
+    name: 'indexByName',
+    
+    // we want to run our plugin before we write our routes to disk
+    before: 'exporter', 
+    
+    
+    build: ({ instance }) => {
+
+        // iterate over all nodes
+        instance.nodeIndex.forEach(node => {
+
+            // if our node name matches 123.foo
+            // set the name to foo and the meta index to 123
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Routify Theme Setup Configuration
+DESCRIPTION: Illustrates the configuration object for Routify's theming system, defining presets for various language and seasonal contexts, including fallback mechanisms and compound themes.
+
+SOURCE: https://routify.dev/docs/guide/concepts
+
+LANGUAGE: javascript
+CODE:
+```
+{
+    themes: {
+        presets: {
+            en: ['en'],
+            en_gb: ['en-gb', 'en'], // fallback to US English
+            de: ['de', 'en'],            
+            en_xmas: [['en', 'xmas'], 'en'], // compound theme
+            // Prefer US English Xmas over localized English without Xmas
+            en_gb_xmas: [['en-gb', 'xmas'], ['en', 'xmas'], 'en-gb', 'en'],
+            // Always prefer German
+            de_xmas: [['de', 'xmas'], 'de', 'en']
+        }
+    }
+}
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies node names and meta indices during the build process.
+
+SOURCE: https://routify.dev/docs/guide/advanced/dynamic-modules
+
+LANGUAGE: javascript
+CODE:
+```
+export default options => ({
+    name: 'indexByName',
+    before: 'exporter',
+    build: ({ instance }) => {
+        instance.nodeIndex.forEach(node => {
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Routify Theme Setup Configuration
+DESCRIPTION: Illustrates the configuration object for Routify's theming system, defining presets for various language and seasonal contexts, including fallback mechanisms and compound themes.
+
+SOURCE: https://routify.dev/docs/api/classes
+
+LANGUAGE: javascript
+CODE:
+```
+{
+    themes: {
+        presets: {
+            en: ['en'],
+            en_gb: ['en-gb', 'en'], // fallback to US English
+            de: ['de', 'en'],            
+            en_xmas: [['en', 'xmas'], 'en'], // compound theme
+            // Prefer US English Xmas over localized English without Xmas
+            en_gb_xmas: [['en-gb', 'xmas'], ['en', 'xmas'], 'en-gb', 'en'],
+            // Always prefer German
+            de_xmas: [['de', 'xmas'], 'de', 'en']
+        }
+    }
+}
+```
+
+--------------------------------
+
+TITLE: Install Routify Package (Manual)
+DESCRIPTION: Manually installs the Routify package for existing projects using npm. This allows integration into projects not set up via the CLI.
+
+SOURCE: https://routify.dev/docs/guide/introduction
+
+LANGUAGE: bash
+CODE:
+```
+npm install @roxi/routify@next
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies node names and meta indices during the build process.
+
+SOURCE: https://routify.dev/docs/guide/advanced/themes
+
+LANGUAGE: javascript
+CODE:
+```
+export default options => ({
+    name: 'indexByName',
+    before: 'exporter',
+    build: ({ instance }) => {
+        instance.nodeIndex.forEach(node => {
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies the `node.name` and adds a `node.meta.index` property during the build process.
+
+SOURCE: https://routify.dev/docs/guide/concepts/nodes
+
+LANGUAGE: javascript
+CODE:
+```
+// this plugin sorts routes by the index prefixed to their names
+// eg. 1.guide.svelte, 2.api.svelte
+export default options => ({
+    name: 'indexByName',
+    
+    // we want to run our plugin before we write our routes to disk
+    before: 'exporter', 
+    
+    
+    build: ({ instance }) => {
+
+        // iterate over all nodes
+        instance.nodeIndex.forEach(node => {
+
+            // if our node name matches 123.foo
+            // set the name to foo and the meta index to 123
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
+
+--------------------------------
+
+TITLE: Install Routify Package (Manual)
+DESCRIPTION: Manually installs the Routify package for existing projects using npm. This allows integration into projects not set up via the CLI.
+
+SOURCE: https://routify.dev/docs/api/helpers/url
+
+LANGUAGE: bash
+CODE:
+```
+npm install @roxi/routify@next
+```
+
+--------------------------------
+
+TITLE: Install Routify Package (Manual)
+DESCRIPTION: Manually installs the Routify package for existing projects using npm. This allows integration into projects not set up via the CLI.
+
+SOURCE: https://routify.dev/docs/guide/introduction/navigation
+
+LANGUAGE: bash
+CODE:
+```
+npm install @roxi/routify@next
+```
+
+--------------------------------
+
+TITLE: Install Routify Package (Manual)
+DESCRIPTION: Manually installs the Routify package for existing projects using npm. This allows integration into projects not set up via the CLI.
+
+SOURCE: https://routify.dev/docs/guide/concepts/bundling
+
+LANGUAGE: bash
+CODE:
+```
+npm install @roxi/routify@next
+```
+
+--------------------------------
+
+TITLE: Install Routify Package (Manual)
+DESCRIPTION: Manually installs the Routify package for existing projects using npm. This allows integration into projects not set up via the CLI.
+
+SOURCE: https://routify.dev/docs/guide/installation
+
+LANGUAGE: bash
+CODE:
+```
+npm install @roxi/routify@next
+```
+
+--------------------------------
+
+TITLE: Install Routify Package (Manual)
+DESCRIPTION: Manually installs the Routify package for existing projects using npm. This allows integration into projects not set up via the CLI.
+
+SOURCE: https://routify.dev/docs/guide/concepts/meta
+
+LANGUAGE: bash
+CODE:
+```
+npm install @roxi/routify@next
+```
+
+--------------------------------
+
+TITLE: Install Routify Package (Manual)
+DESCRIPTION: Manually installs the Routify package for existing projects using npm. This allows integration into projects not set up via the CLI.
+
+SOURCE: https://routify.dev/docs/api/components
+
+LANGUAGE: bash
+CODE:
+```
+npm install @roxi/routify@next
+```
+
+--------------------------------
+
+TITLE: Routify Theme Setup Configuration
+DESCRIPTION: Illustrates the configuration object for Routify's theming system, defining presets for various language and seasonal contexts, including fallback mechanisms and compound themes.
+
+SOURCE: https://routify.dev/docs/api/node-traversal
+
+LANGUAGE: javascript
+CODE:
+```
+{
+    themes: {
+        presets: {
+            en: ['en'],
+            en_gb: ['en-gb', 'en'], // fallback to US English
+            de: ['de', 'en'],            
+            en_xmas: [['en', 'xmas'], 'en'], // compound theme
+            // Prefer US English Xmas over localized English without Xmas
+            en_gb_xmas: [['en-gb', 'xmas'], ['en', 'xmas'], 'en-gb', 'en'],
+            // Always prefer German
+            de_xmas: [['de', 'xmas'], 'de', 'en']
+        }
+    }
+}
+```
+
+--------------------------------
+
+TITLE: Example Plugin: Sort Routes by Index
+DESCRIPTION: An example plugin that sorts routes based on an index prefixed to their names (e.g., '1.guide.svelte'). It modifies the `node.name` and adds a `node.meta.index` property during the build process.
+
+SOURCE: https://routify.dev/docs/guide/advanced/nodes
+
+LANGUAGE: javascript
+CODE:
+```
+// this plugin sorts routes by the index prefixed to their names
+// eg. 1.guide.svelte, 2.api.svelte
+export default options => ({
+    name: 'indexByName',
+    
+    // we want to run our plugin before we write our routes to disk
+    before: 'exporter', 
+    
+    
+    build: ({ instance }) => {
+
+        // iterate over all nodes
+        instance.nodeIndex.forEach(node => {
+
+            // if our node name matches 123.foo
+            // set the name to foo and the meta index to 123
+            const matches = node.name?.match(/^(d+).(.+)/)
+            if (matches) {
+                const [, index, name] = matches
+                node.name = name
+                node.meta.index = index
+            }
+        })
+    }
+})
+```
